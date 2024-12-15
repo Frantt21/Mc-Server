@@ -711,3 +711,5 @@ KillAura:
   check_move_direction_1: true
   check_move_direction_2: true
   check_move_length: true
+  detection:
+    entities: true

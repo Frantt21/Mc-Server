@@ -1,21 +1,21 @@
 lastAccountName: Frntts
 timestamps:
-  login: 1734302202644
-  logout: 1734302199827
-  lastteleport: 1734302212626
+  login: 1734302805500
+  logout: 1734302802384
+  lastteleport: 1734302870684
 ipAddress: 100.80.245.25
 lastlocation:
-  world: ParaPvP
-  x: 35.695439056326634
-  y: 71.0
-  z: 27.602665139795594
-  yaw: -325.066
-  pitch: 16.508772
+  world: Lobby
+  x: -23.50077758422242
+  y: 60.0
+  z: 13.6078351390736
+  yaw: -334.5455
+  pitch: 11.712181
 logoutlocation:
-  world: ParaPvP
-  x: 39.29029917344541
-  y: 71.0
-  z: 31.401792320905326
-  yaw: -20.57602
-  pitch: 6.505873
+  world: Auth
+  x: 15.601570238838265
+  y: 58.0
+  z: -6.212170222338406
+  yaw: -354.18384
+  pitch: 2.0487823
 afk: false

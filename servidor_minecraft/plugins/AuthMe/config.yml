@@ -160,8 +160,7 @@ settings:
             enabled: true
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
-            worlds: 
-            - ParaPvP
+            worlds:
             - Hub
             - world
             - world_nether
