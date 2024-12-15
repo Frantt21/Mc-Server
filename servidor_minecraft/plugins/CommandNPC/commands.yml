@@ -1,0 +1,23 @@
+NPCS:
+  '0':
+    Commands:
+    - warp Practice~essentials.warp~false
+  '4':
+    Commands:
+    - warp CubeCore~essentials.warp~false
+  '3':
+    Commands:
+    - cosmicffa join~cosmicffa.join~false
+  '2':
+    Commands:
+    - ffa join~ffajoin~false
+  '6':
+    Commands:
+    - hub~chestcommands.open.Menu~false
+  '8':
+    Commands:
+    - spawn~practice~true
+  '9':
+    Commands:
+    - practice spawn~practice~true
+    - practice spawn~practice~false

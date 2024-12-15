@@ -1,0 +1,542 @@
+Items:
+  Unranked: 
+    Material: IRON_SWORD
+    Data: 0
+    Amount: 1
+    Displayname: "&d&lUnranked &7(Clic Derecho)"
+    Lore: 
+    - "&7Clic derecho para jugar partidas normales."
+    
+  Ranked:
+    Material: DIAMOND_SWORD
+    Data: 0
+    Amount: 1
+    Displayname: "&5&lRanked &7(Clic Derecho)"
+    Lore: 
+    - "&7Clic derecho para jugar partidas clasificatorias."
+    
+  Kit-Editor:
+    Material: ENCHANTED_BOOK
+    Data: 0
+    Amount: 1
+    Displayname: "&b&lEditor de Kits &7(Clic Derecho)"
+    Lore:
+    - "&7Right-click to edit your kits."
+    
+  FFA-Selector:
+    Material: BOOK
+    Data: 0
+    Amount: 1
+    Displayname: "&bFFA Selector"
+    Lore:
+    - "&7Right-click to select a FFA."
+    
+  Party-Create:
+    Material: SKULL_ITEM
+    Data: 3
+    Amount: 1
+    Displayname: "&aCreate a Party"
+    Lore:
+    - "&7Right-click to create a party."
+   
+  Party-Events:
+    Material: IRON_SWORD
+    Data: 0
+    Amount: 1
+    Displayname: "&bParty Events"
+    Lore:
+    - "&7Right-click to start a party event."
+    
+  Party-Disband:
+    Material: INK_SACK
+    Data: 1
+    Amount: 1
+    Displayname: "&cDisband Party"
+    Lore:
+    - "&7Right-click to disband your party."
+    
+  Party-Leave:
+    Material: INK_SACK
+    Data: 1
+    Amount: 1
+    Displayname: "&cLeave Party"
+    Lore:
+    - "&7Right-click to leave your party."
+    
+  Party-View:
+    Material: ENDER_CHEST
+    Data: 0
+    Amount: 1
+    Displayname: "&aView Parties"
+    Lore:
+    - "&7Right-click to view other parties."
+    
+  Party-Information:
+    Material: SKULL_ITEM
+    Data: 3
+    Amount: 1
+    Displayname: "&bParty Members"
+    Lore:
+    - "&7Right-click to view party members."
+    
+  Spectate-Matches:
+    Material: COMPASS
+    Data: 0
+    Amount: 1
+    Displayname: "&aSpectate a Match"
+    Lore:
+    - "&7Right-click to open the spectator menu."
+
+  Player-Options:
+    Material: REDSTONE_COMPARATOR 
+    Data: 0
+    Amount: 1
+    Displayname: "&cPlayer Options"
+    Lore:
+    - "&7Right-click to open the options menu."
+    
+  Return-To-Hub:
+    Material: BED
+    Data: 0
+    Amount: 1
+    Displayname: "&cReturn to Hub &7(Right Click)"
+    Lore: 
+    - "&7Right-click to return to a Hub."    
+    
+  Queue-Leave:
+    Material: INK_SACK
+    Data: 1
+    Amount: 1
+    Displayname: "&cLeave Queue"
+    Lore:
+    - "&7Right-click to leave your queue." 
+    
+  Teleporter-Menu:
+    Material: COMPASS
+    Data: 0
+    Amount: 1
+    Displayname: "&aTeleporter &7(Right Click)"
+    Lore:
+    - "&7Right-click to spectate players!"
+    
+  Spectator-Settings:
+    Material: REDSTONE_COMPARATOR
+    Data: 0
+    Amount: 1
+    Displayname: "&cSpectator Settings &7(Right Click)"
+    Lore:
+    - "&7Right-click to change your spectator settings!"
+ 
+  Custom-Item-1:
+    Material: PAPER
+    Data: 0
+    Amount: 1
+    Displayname: "&bCustom Item 1"
+    Lore:
+    - "&7Right-click to run a command."  
+    Command: "CustomCommand1"
+ 
+  Custom-Item-2:
+    Material: PAPER
+    Data: 0
+    Amount: 1
+    Displayname: "&bCustom Item 2"
+    Lore:
+    - "&7Right-click to run a command."  
+    Command: "CustomCommand2"
+    
+  Custom-Item-3:
+    Material: PAPER
+    Data: 0
+    Amount: 1
+    Displayname: "&bCustom Item 3"
+    Lore:
+    - "&7Right-click to run a command."  
+    Command: "CustomCommand3"
+    
+Inventories:
+    Party-List:
+        Title: "Party List"
+        Displayname: "&3Party of (leader)"
+        Leader-Lore:
+            - " "
+            - "&b(players)"
+            - ""
+            - "&7Click to send this party a duel."
+        Not-Leader-Lore:
+            - ""
+            - "&b(players)"
+            - ""
+            - "&7Click to view this party's info."
+    
+    Ranked-Queue:
+        Title: "&9Ranked Queue"
+        Displayname: "&b(ladder) &8- &7(mode)"
+        Lore:
+            - ""
+            - "&eIn Fights: &7(inFights)"
+            - "&eIn Queue: &7(inQueue)"
+            - "&eYour ELO: &7(elo)"
+            - ""
+            - "&7Click to join this queue."
+    
+    Unranked-Queue:
+        Title: "&9Unranked Queue"
+        Displayname: "&b(ladder) &8- &7(mode)"
+        Lore:
+            - ""
+            - "&eIn Fights: &7(inFights)"
+            - "&eIn Queue: &7(inQueue)"
+            - ""
+            - "&7Click to join this queue."
+    
+    Kit-Editor:
+        Title: "&9Kit Editor"
+        Displayname: "&b(ladder)"
+        Lore:
+        - ""
+        - "&7Click to edit the kits of this ladder."
+        
+    FFA-Selector:
+        Title: "&9FFA Selector"
+        Displayname: "&b(name)"
+        Lore:
+        - ""
+        - "&bLadder: &e(ladder)"
+        - "&bPlayers: &e(players)"
+        - ""
+        - "&7Click to join this ffa."
+        
+    Kit-Actions:
+        Title: "Kit Actions"
+        
+        Save:
+            Material: ENCHANTED_BOOK
+            Data: 0
+            Amount: 1
+            Displayname: "&aSave Kit #(number)"
+            Lore:
+            - ""
+            - "&7Click to save the current layout!"
+
+        Load:
+            Material: CHEST
+            Data: 0
+            Amount: 1
+            Displayname: "&bLoad Kit #(number)"
+            Lore:
+            - ""
+            - "&7Click to load that layout"
+            - "&7into your inventory."
+            
+        Delete:
+            Material: HOPPER
+            Data: 0
+            Amount: 1
+            Displayname: "&cDelete Kit #(number)"
+            Lore:
+            - ""
+            - "&7Click to delete that layout!"
+
+    Send-Duel-Request:
+        Title: "&9Send Duel Request"
+        Displayname: "&b(ladder)"
+        Lore:
+        - ""
+        - "&7Click here to select this ladder!"
+        
+    Send-Party-Duel-Request:
+        Title: "&9Send Party Duel Request"
+        Displayname: "&b(ladder)"
+        Lore:
+        - ""
+        - "&7Click here to select this ladder!"
+        
+    Party-Events:
+        Title: "&9Party Events"
+        Size: 27
+        
+        Party-Fight:
+            Material: DIAMOND_AXE
+            Data: 0
+            Amount: 1
+            Slot: 11
+            Displayname: "&bParty Fight"
+            Lore:
+            - ""
+            - "&7Split your party into two teams"
+            - "&7and fight it out in an arena."
+            
+        Party-FFA:
+            Material: IRON_SWORD
+            Data: 0
+            Amount: 1
+            Slot: 15
+            Displayname: "&bParty FFA"
+            Lore:
+            - ""
+            - "&7Have an FFA between all"
+            - "&7the members in your party."
+            
+    Choose-Arena:
+        Title: "&aChoose an arena!"
+        Displayname: "&b(arena)"
+        Lore:
+        - ""
+        - "&7Click here to choose this arena!"
+        
+    Party-Event-Select-Ladder:
+        Title: "Select a ladder!"
+        Displayname: "&b(ladder)"
+        Lore:
+        - ""
+        - "&7Click here to select this ladder!"
+        
+    Player-Options:
+        Title: "Player Options"
+        Inventory-Size: 27
+        
+        Toggle:
+            Scoreboard:
+                Material: PAINTING
+                Data: 0
+                Amount: 1
+                Slot: 10
+                Displayname: "&bToggle Scoreboard"
+                Lore:
+                - ""
+                - "&eCurrently: &7(status)"
+                - ""
+                - "&7Click to toggle the"
+                - "&7scoreboard."
+            
+            Duel-Requests:
+                Material: PAPER
+                Data: 0
+                Amount: 1
+                Slot: 13
+                Displayname: "&bToggle Duel requests"
+                Lore:
+                - ""
+                - "&eCurrently: &7(status)"
+                - ""
+                - "&7Click to toggle duel"
+                - "&7requests."
+
+                
+            Player-Visibility:
+                Material: SKULL_ITEM
+                Data: 3
+                Amount: 1
+                Slot: 16
+                Displayname: "&bPlayer-Visibility"
+                Lore:
+                - ""
+                - "&eCurrently: &7(status)"
+                - ""
+                - "&7Click to toggle the"
+                - "&7player visibility."
+        
+    Teleporter-Menu:
+        Title: "Teleporter"
+        
+        Material: SKULL_ITEM
+        Data: 3
+        Amount: 1
+        Displayname: "&b(player)"
+        Lore:
+        - ""
+        - "&dHealth: &7(health)"
+        - "&dFood: &7(food)"
+        - ""
+        - "&7Click to spectate this player!"
+      
+    Spectator-Settings-Menu:
+        Title: "Spectator Settings"
+        Size: 36
+        
+        No-Speed:
+            Material: LEATHER_BOOTS
+            Data: 0
+            Amount: 1
+            Slot: 11
+            Displayname: "&aNo Speed"
+            Lore:
+            - "&7Click to select!"
+        
+        Speed-I:
+            Material: CHAINMAIL_BOOTS
+            Data: 0
+            Amount: 1
+            Slot: 12
+            Displayname: "&aSpeed I"
+            Lore:
+            - "&7Click to select!"
+            
+        Speed-II:
+            Material: IRON_BOOTS
+            Data: 0
+            Amount: 1
+            Slot: 13
+            Displayname: "&aSpeed II"
+            Lore:
+            - "&7Click to select!"
+       
+        Speed-III:
+            Material: GOLD_BOOTS
+            Data: 0
+            Amount: 1
+            Slot: 14
+            Displayname: "&aSpeed III"
+            Lore:
+            - "&7Click to select!"
+        
+        Speed-IV:
+            Material: DIAMOND_BOOTS
+            Data: 0
+            Amount: 1
+            Slot: 15
+            Displayname: "&aSpeed IV"
+            Lore:
+            - "&7Click to select!"
+            
+        Enable-Night-Vision:
+            Material: EYE_OF_ENDER
+            Data: 0
+            Amount: 1
+            Slot: 21
+            Displayname: "&aEnable Night Vision"
+            Lore:
+            - "&7Click to enable night vision!"
+            
+        Disable-Night-Vision:
+            Material: ENDER_PEARL
+            Data: 0
+            Amount: 1
+            Slot: 21
+            Displayname: "&aDisable Night Vision"
+            Lore:
+            - "&7Click to disable night vision!"           
+
+        Show-Spectators:
+            Material: GLOWSTONE_DUST
+            Data: 0
+            Amount: 1
+            Slot: 23
+            Displayname: "&aShow Spectators"
+            Lore:
+            - "&7Click to show other spectators!"
+       
+        Hide-Spectators:
+            Material: REDSTONE
+            Data: 0
+            Amount: 1
+            Slot: 23
+            Displayname: "&aHide Spectators"
+            Lore:
+            - "&7Click to hide other spectators!"
+
+    Spectate-A-Match-Menu:
+        Title: "Spectate a match"
+        Size: 54
+        Material: PAPER
+        Data: 0
+        Amount: 1
+        Displayname: "&b(ladder) (matchType)"
+        Lore:
+        - ""
+        - "&eCurrent players in match:"
+        - "&7(players)"
+        - ""
+        - "&7Click to spectate this match!"
+        
+    Past-Inventories:
+        Title: "&bInventory of (player)"
+        
+        Player-Alive:
+            Material: SPECKLED_MELON
+            Data: 0
+            Amount: 1
+            Displayname: "&aPlayer Health &e(health)"
+            Lore:
+            - ""
+        
+        Player-Died:
+            Material: SKULL_ITEM
+            Data: 0
+            Amount: 1
+            Displayname: "&cPlayer Died"
+            Lore:
+            - ""
+            
+        Player-Hunger:
+            Material: COOKED_BEEF
+            Data: 0
+            Amount: 1
+            Displayname: "&aPlayer Hunger &e(hunger)"
+            Lore:
+            - "" 
+
+        Potion-Effects:
+            Material: POTION
+            Data: 0
+            Amount: 1
+            Displayname: "&aPotion Effects"
+            Lore:
+            - "&e(effects)"
+        
+Hotbar-Layout:
+  Lobby:
+    0: "Unranked"
+    1: "Ranked"
+    2: ""
+    3: ""
+    4: "Party-Create"
+    5: ""
+    6: "Kit-Editor"
+    7: "Spectate-Matches"
+    8: "Player-Options"
+    
+  Party-Leader:
+    0: ""
+    1: "Party-Events"
+    2: ""
+    3: "Party-Information"
+    4: ""
+    5: "Party-View"
+    6: ""
+    7: "Party-Disband"
+    8: ""
+    
+  Party-Member:
+    0: ""
+    1: ""
+    2: "Party-Information"
+    3: ""
+    4: "Party-View"
+    5: ""
+    6: "Party-Leave"
+    7: ""
+    8: ""
+    
+  Queue:
+    0: "Queue-Leave"
+    1: ""
+    2: ""
+    3: ""
+    4: ""
+    5: ""
+    6: ""
+    7: ""
+    8: ""
+    
+  Spectator:
+    0: "Teleporter-Menu"
+    1: ""
+    2: ""
+    3: ""
+    4: "Spectator-Settings"
+    5: ""
+    6: ""
+    7: ""
+    8: "Return-To-Hub"

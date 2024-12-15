@@ -1,173 +1,1138 @@
-[17:57:54] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[17:57:54] [Server thread/INFO]: Loading properties
-[17:57:54] [Server thread/INFO]: Default game type: SURVIVAL
-[17:57:54] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[17:57:54] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
-[17:57:54] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
-[17:57:54] [Server thread/INFO]: Unable to find file ops.json, creating it.
-[17:57:54] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
-[17:57:54] [Server thread/INFO]: Debug logging is disabled
-[17:57:54] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[17:57:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:57:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:57:54] [Server thread/INFO]: Data value allowed items: 
-[17:57:54] [Server thread/INFO]: Generating keypair
-[17:57:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:57:54] [Server thread/INFO]: Using epoll channel type
-[17:57:54] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:57:54] [Server thread/INFO]: Preparing level "world"
-[17:57:54] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:57:54] [Server thread/INFO]: Anti X-Ray: true
-[17:57:54] [Server thread/INFO]: 	Engine Mode: 1
-[17:57:54] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:57:54] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:57:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:57:54] [Server thread/INFO]: Mob Spawn Range: 4
-[17:57:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:57:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:57:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:57:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:57:54] [Server thread/INFO]: Random Lighting Updates: false
-[17:57:54] [Server thread/INFO]: Structure Info Saving: true
-[17:57:54] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:57:54] [Server thread/INFO]: Max Entity Collisions: 8
-[17:57:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:57:54] [Server thread/INFO]: Max TNT Explosions: 100
-[17:57:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:57:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:57:54] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:57:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:57:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:57:54] [Server thread/INFO]: View Distance: 10
-[17:57:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:57:54] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:57:54] [Server thread/INFO]: Clear tick list: false
-[17:57:54] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:57:54] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:57:54] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:57:54] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:57:54] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:57:54] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:57:54] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:57:54] [Server thread/INFO]: Water over lava flow speed: 5
-[17:57:54] [Server thread/INFO]: Fix TNT cannons: false
-[17:57:54] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:57:54] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:57:54] [Server thread/INFO]: World async lighting: false
-[17:57:54] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:57:54] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:57:54] [Server thread/WARN]: Unable to find spawn biome
-[17:57:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:57:57] [Server thread/INFO]: Anti X-Ray: true
-[17:57:57] [Server thread/INFO]: 	Engine Mode: 1
-[17:57:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:57:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:57:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:57:57] [Server thread/INFO]: Mob Spawn Range: 4
-[17:57:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:57:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:57:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:57:57] [Server thread/INFO]: Random Lighting Updates: false
-[17:57:57] [Server thread/INFO]: Structure Info Saving: true
-[17:57:57] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:57:57] [Server thread/INFO]: Max Entity Collisions: 8
-[17:57:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:57:57] [Server thread/INFO]: Max TNT Explosions: 100
-[17:57:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:57:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:57:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:57:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:57:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:57:57] [Server thread/INFO]: View Distance: 10
-[17:57:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:57:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:57:57] [Server thread/INFO]: Clear tick list: false
-[17:57:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:57:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:57:57] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:57:57] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:57:57] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:57:57] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:57:57] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:57:57] [Server thread/INFO]: Water over lava flow speed: 5
-[17:57:57] [Server thread/INFO]: Fix TNT cannons: false
-[17:57:57] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:57:57] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:57:57] [Server thread/INFO]: World async lighting: false
-[17:57:57] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:57:57] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:57:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:57:57] [Server thread/INFO]: Anti X-Ray: true
-[17:57:57] [Server thread/INFO]: 	Engine Mode: 1
-[17:57:57] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:57:57] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:57:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:57:57] [Server thread/INFO]: Mob Spawn Range: 4
-[17:57:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:57:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:57:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:57:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:57:57] [Server thread/INFO]: Random Lighting Updates: false
-[17:57:57] [Server thread/INFO]: Structure Info Saving: true
-[17:57:57] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:57:57] [Server thread/INFO]: Max Entity Collisions: 8
-[17:57:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:57:57] [Server thread/INFO]: Max TNT Explosions: 100
-[17:57:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:57:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:57:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:57:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:57:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:57:57] [Server thread/INFO]: View Distance: 10
-[17:57:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:57:57] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:57:57] [Server thread/INFO]: Clear tick list: false
-[17:57:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:57:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:57:57] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:57:57] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:57:57] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:57:57] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:57:57] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:57:57] [Server thread/INFO]: Water over lava flow speed: 5
-[17:57:57] [Server thread/INFO]: Fix TNT cannons: false
-[17:57:57] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:57:57] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:57:57] [Server thread/INFO]: World async lighting: false
-[17:57:57] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:57:57] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:57:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2139170141796746338)
-[17:57:58] [Server thread/INFO]: Preparing spawn area: 50%
-[17:57:59] [Server thread/INFO]: Preparing spawn area: 86%
-[17:58:00] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2139170141796746338)
-[17:58:01] [Server thread/INFO]: Preparing spawn area: 30%
-[17:58:02] [Server thread/INFO]: Preparing spawn area: 77%
-[17:58:02] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2139170141796746338)
-[17:58:03] [Server thread/INFO]: Preparing spawn area: 95%
-[17:58:03] [Server thread/INFO]: Done (9.346s)! For help, type "help" or "?"
-[17:58:03] [Server thread/INFO]: Timings Reset
-[18:07:29] [User Authenticator #1/INFO]: UUID of player Frntts is 36fac02b-a535-4c01-b6bc-78908b8023b8
-[18:07:29] [Server thread/INFO]: Frntts[/100.80.245.25:56057] logged in with entity id 1170 at ([world]135.5, 63.0, -19.5)
-[18:07:36] [Server thread/WARN]: Frntts moved wrongly!
+[22:17:59] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[22:17:59] [Server thread/INFO]: Loading properties
+[22:17:59] [Server thread/INFO]: Default game type: SURVIVAL
+[22:17:59] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[22:17:59] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[22:17:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:17:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:17:59] [Server thread/INFO]: Debug logging is disabled
+[22:17:59] [Server thread/INFO]: Data value allowed items: 
+[22:17:59] [Server thread/INFO]: Generating keypair
+[22:17:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:17:59] [Server thread/INFO]: Using epoll channel type
+[22:17:59] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:18:00] [Server thread/INFO]: [InfiniteLeaks] Please contact InfiniteLeaks!
+[22:18:00] [Server thread/INFO]: [InfiniteLeaks] Error code: 0x1
+[22:18:00] [Server thread/INFO]: [ProPractice] Cracked by t0r@infiniteleaks.org      
+[22:18:00] [Server thread/INFO]: Initialize logging service
+[22:18:00] [Server thread/INFO]: [FastLogin] Using legacy scheduler
+[22:18:00] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.117
+[22:18:00] [Server thread/INFO]: [SepareWorldItems] Loading SepareWorldItems v1.2.22
+[22:18:00] [Server thread/INFO]: [PerWorldChat] Loading PerWorldChat v1.2.1
+[22:18:00] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[22:18:00] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.5
+[22:18:00] [Server thread/INFO]: [PerWorldPlugins] Loading PerWorldPlugins v1.3.0
+[22:18:00] [Server thread/INFO]: [PerWorldPlugins] Registering event interceptor...
+[22:18:00] [Server thread/INFO]: [PlugMan] Loading PlugMan v1.0-SNAPSHOT
+[22:18:00] [Server thread/INFO]: [spark] Loading spark v1.10.119
+[22:18:00] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.5.23
+[22:18:00] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[22:18:00] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b691
+[22:18:00] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
+[22:18:01] [Server thread/INFO]: [Spartan] Loading Spartan vPhase 537.7
+[22:18:01] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v10.4.1
+[22:18:01] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[22:18:01] [Server thread/INFO]: [csm] Loading CustomServerMessages v5.2
+[22:18:01] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[22:18:01] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.3.7
+[22:18:01] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:18:01] [Server thread/INFO]: [PerWorldTablist] Loading PerWorldTablist v1.1
+[22:18:01] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
+[22:18:01] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[22:18:01] [Server thread/INFO]: [CustomTab] Loading CustomTab v1.1
+[22:18:01] [Server thread/INFO]: [ProPractice] Loading ProPractice v7.6
+[22:18:01] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[22:18:01] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
+[22:18:01] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1272)
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.9.0
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[22:18:01] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[22:18:01] [Server thread/INFO]: [FastLogin] Loading FastLogin v1.12-SNAPSHOT-927f09a
+[22:18:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.117
+[22:18:01] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[22:18:01] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.117[m
+[22:18:01] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[22:18:01] [Server thread/INFO]: [m
+[22:18:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:18:01] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:18:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:18:02] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:18:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1052ms)
+[22:18:02] [Server thread/INFO]: [PerWorldChat] Enabling PerWorldChat v1.2.1
+[22:18:02] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[22:18:02] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[22:18:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v10.4.1
+[22:18:02] [Server thread/INFO]: ----------------------------
+[22:18:02] [Server thread/INFO]:   SkinsRestorer Updater
+[22:18:02] [Server thread/INFO]:  
+[22:18:02] [Server thread/INFO]: Could not connect to spigotmc.org
+[22:18:02] [Server thread/INFO]: to check for updates! 
+[22:18:02] [Server thread/INFO]:  
+[22:18:02] [Server thread/INFO]: ----------------------------
+[22:18:02] [Server thread/INFO]: [0;32;22m==============================================[m
+[22:18:02] [Server thread/INFO]: [0;33;1m  SkinsRestorer Updater[m
+[22:18:02] [Server thread/INFO]: [0;33;1m [m
+[22:18:02] [Server thread/INFO]: [0;36;1m    You are running v[0;32;1m10.4.1[m
+[22:18:02] [Server thread/INFO]: [0;32;1m    The latest version of SkinsRestorer![m
+[22:18:02] [Server thread/INFO]: [0;33;1m [m
+[22:18:02] [Server thread/INFO]: [0;32;22m==============================================[m
+[22:18:02] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[22:18:03] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.7
+[22:18:03] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:18:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:18:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:18:03] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:18:03] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[22:18:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:18:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:18:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:18:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:18:03] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:18:03] [Server thread/INFO]: Preparing level "Lobby"
+[22:18:03] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[22:18:03] [Server thread/INFO]: Anti X-Ray: true
+[22:18:03] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:03] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:03] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:03] [Server thread/INFO]: Structure Info Saving: true
+[22:18:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:03] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:03] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:03] [Server thread/INFO]: View Distance: 10
+[22:18:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:03] [Server thread/INFO]: Clear tick list: false
+[22:18:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:03] [Server thread/INFO]: -------- World Settings For [Lobby] --------
+[22:18:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:03] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:03] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:03] [Server thread/INFO]: World async lighting: false
+[22:18:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:03] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[22:18:03] [Server thread/INFO]: Anti X-Ray: true
+[22:18:03] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:03] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:03] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:03] [Server thread/INFO]: Structure Info Saving: true
+[22:18:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:03] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:03] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:03] [Server thread/INFO]: View Distance: 10
+[22:18:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:03] [Server thread/INFO]: Clear tick list: false
+[22:18:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:03] [Server thread/INFO]: -------- World Settings For [Lobby_nether] --------
+[22:18:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:03] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:03] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:03] [Server thread/INFO]: World async lighting: false
+[22:18:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:03] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[22:18:03] [Server thread/INFO]: Anti X-Ray: true
+[22:18:03] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:03] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:03] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:03] [Server thread/INFO]: Structure Info Saving: true
+[22:18:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:03] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:03] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:03] [Server thread/INFO]: View Distance: 10
+[22:18:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:03] [Server thread/INFO]: Clear tick list: false
+[22:18:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:03] [Server thread/INFO]: -------- World Settings For [Lobby_the_end] --------
+[22:18:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:03] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:03] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:03] [Server thread/INFO]: World async lighting: false
+[22:18:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: 978351784719886371)
+[22:18:03] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3993529320724524690)
+[22:18:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3993529320724524690)
+[22:18:04] [Server thread/INFO]: [SepareWorldItems] Enabling SepareWorldItems v1.2.22
+[22:18:04] [Server thread/INFO]: [SepareWorldItems] Backups are enabled and running for the user data folder.
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/JP_JP.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/de_DE.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/en_US.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/es_ES.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/fr_FR.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/pl_PL.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/pt_PT.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/ru_RU.yml
+[22:18:04] [Server thread/INFO]: File already exists: plugins/SepareWorldItems/langs/ua_UA.yml
+[22:18:04] [Server thread/INFO]: [0;37;1m [Register]: [0;32;1mAuto Download Lang Enabled.[m
+[22:18:04] [Server thread/INFO]: [0;37;22m[9m------------------------------------[m
+[22:18:04] [Server thread/INFO]: [0;32;1m On SepareWorldItems [0;36;1m1.2.22[m
+[22:18:04] [Server thread/INFO]: [m [m
+[22:18:04] [Server thread/INFO]: [0;32;1m Thanks for using SepareWorldItems :D[m
+[22:18:04] [Server thread/INFO]: [0;32;22m Created By: Happyuky7[m
+[22:18:04] [Server thread/INFO]: [m [m
+[22:18:04] [Server thread/INFO]: [0;32;1m Version Server:[0;37;1m git-PaperSpigot-445 (MC: 1.8.8)[m
+[22:18:04] [Server thread/INFO]: [m [m
+[22:18:04] [Server thread/INFO]: [0;34;1m[21m Discord: [0;37;1mhttps://discord.gg/3EebYUyeUX[m
+[22:18:04] [Server thread/INFO]: [0;35;1m[21m GitHub: [0;37;1mhttps://github.com/Happyuky7/SEPARE-WORLD-ITEMS[m
+[22:18:04] [Server thread/INFO]: [0;37;22m[9m------------------------------------[m
+[22:18:04] [Server thread/INFO]: [m [m
+[22:18:04] [Server thread/INFO]: [0;36;22m[9m------------------------------------[m
+[22:18:04] [Server thread/INFO]: [0;37;1m [Register]: [0;32;1mLoad Files.[m
+[22:18:04] [Server thread/INFO]: [0;37;1m [Register]: [0;32;1mLoad Langs Files.[m
+[22:18:04] [Server thread/INFO]: [0;37;1m [Register]: [0;32;1mLoad Commands.[m
+[22:18:04] [Server thread/INFO]: [0;37;1m [Register]: [0;32;1mLoad Events.[m
+[22:18:04] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[22:18:04] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[22:18:04] [Server thread/INFO]: git-PaperSpigot-445 (MC: 1.8.8)
+[22:18:04] [Server thread/INFO]: 1.8.8-R0.1-SNAPSHOT
+[22:18:04] [Server thread/INFO]: Using locale en
+[22:18:04] [Server thread/INFO]: Using locale en
+[22:18:04] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[22:18:04] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[22:18:04] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[22:18:04] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[22:18:04] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:18:04] [Server thread/INFO]: [PerWorldPlugins] Enabling PerWorldPlugins v1.3.0
+[22:18:04] [Server thread/INFO]: [PerWorldPlugins] Enabled, attempting to inject CommandHandler...
+[22:18:04] [Server thread/INFO]: [PlugMan] Enabling PlugMan v1.0-SNAPSHOT
+[22:18:04] [Server thread/INFO]: [spark] Enabling spark v1.10.119
+[22:18:04] [Server thread/INFO]: [spark] Using Bukkit scheduler for tick monitoring
+[22:18:04] [Server thread/INFO]: [spark] Starting background profiler...
+[22:18:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.119]
+[22:18:05] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[22:18:05] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.23
+[22:18:05] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_8_R3
+[22:18:05] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[22:18:05] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[22:18:05] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b691
+[22:18:05] [Server thread/INFO]: [Multiverse-Core] [AllPay] - Version 13.0 - hooked into Essentials Economy for Multiverse-Core v2.5-b691
+[22:18:05] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[22:18:05] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[22:18:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:18:05] [Server thread/INFO]: Anti X-Ray: true
+[22:18:05] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:05] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:05] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:05] [Server thread/INFO]: Structure Info Saving: true
+[22:18:05] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:05] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:05] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:05] [Server thread/INFO]: View Distance: 10
+[22:18:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:05] [Server thread/INFO]: Clear tick list: false
+[22:18:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:18:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:05] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:05] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:05] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:05] [Server thread/INFO]: World async lighting: false
+[22:18:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:05] [Server thread/INFO]: Preparing start region for level 3 (Seed: -2139170141796746338)
+[22:18:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:18:06] [Server thread/INFO]: Anti X-Ray: true
+[22:18:06] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:06] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:06] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:06] [Server thread/INFO]: Structure Info Saving: true
+[22:18:06] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:06] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:06] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:06] [Server thread/INFO]: View Distance: 10
+[22:18:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:06] [Server thread/INFO]: Clear tick list: false
+[22:18:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:18:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:06] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:06] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:06] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:06] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:06] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:06] [Server thread/INFO]: World async lighting: false
+[22:18:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:06] [Server thread/INFO]: Preparing start region for level 4 (Seed: -2139170141796746338)
+[22:18:06] [Server thread/WARN]: java.lang.NullPointerException
+[22:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.WorldServer.<init>(WorldServer.java:58)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.createWorld(CraftServer.java:916)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:485)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:261)
+[22:18:06] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:421)
+[22:18:06] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:402)
+[22:18:06] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:377)
+[22:18:06] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:676)
+[22:18:06] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:306)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[22:18:06] [Server thread/WARN]: 	at me.incomprehendable.dev.pwp.transparentlisteners.PerWorldPluginLoader.enablePlugin(PerWorldPluginLoader.java:141)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+[22:18:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+[22:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+[22:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+[22:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+[22:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+[22:18:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[22:18:06] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[22:18:06] [Server thread/ERROR]: [Multiverse-Core] The world 'Hub' could NOT be loaded because it contains errors!
+[22:18:06] [Server thread/ERROR]: [Multiverse-Core] Try using Chukster to repair your world! 'Hub'
+[22:18:06] [Server thread/ERROR]: [Multiverse-Core] http://forums.bukkit.org/threads/admin-chunkster.8186/
+[22:18:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:18:06] [Server thread/INFO]: Anti X-Ray: true
+[22:18:06] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:06] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:06] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:06] [Server thread/INFO]: Structure Info Saving: true
+[22:18:06] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:06] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:06] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:06] [Server thread/INFO]: View Distance: 10
+[22:18:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:06] [Server thread/INFO]: Clear tick list: false
+[22:18:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:18:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:06] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:06] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:06] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:06] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:06] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:06] [Server thread/INFO]: World async lighting: false
+[22:18:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:06] [Server thread/INFO]: Preparing start region for level 5 (Seed: -2139170141796746338)
+[22:18:07] [Server thread/INFO]: -------- World Settings For [ParaPvP] --------
+[22:18:07] [Server thread/INFO]: Anti X-Ray: true
+[22:18:07] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:07] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:07] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:07] [Server thread/INFO]: Structure Info Saving: true
+[22:18:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:07] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:07] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:07] [Server thread/INFO]: View Distance: 10
+[22:18:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:07] [Server thread/INFO]: Clear tick list: false
+[22:18:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:07] [Server thread/INFO]: -------- World Settings For [ParaPvP] --------
+[22:18:07] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:07] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:07] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:07] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:07] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:07] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:07] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:07] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:07] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:07] [Server thread/INFO]: World async lighting: false
+[22:18:07] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:07] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:07] [Server thread/INFO]: Preparing start region for level 6 (Seed: 0)
+[22:18:07] [Server thread/INFO]: -------- World Settings For [Auth] --------
+[22:18:07] [Server thread/INFO]: Anti X-Ray: true
+[22:18:07] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:07] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:07] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:07] [Server thread/INFO]: Structure Info Saving: true
+[22:18:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:07] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:07] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:07] [Server thread/INFO]: View Distance: 10
+[22:18:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:07] [Server thread/INFO]: Clear tick list: false
+[22:18:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:07] [Server thread/INFO]: -------- World Settings For [Auth] --------
+[22:18:07] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:07] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:07] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:07] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:07] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:07] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:07] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:07] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:07] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:07] [Server thread/INFO]: World async lighting: false
+[22:18:07] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:07] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:07] [Server thread/INFO]: Preparing start region for level 7 (Seed: 8391656110087849913)
+[22:18:07] [Server thread/INFO]: -------- World Settings For [PracticeHub] --------
+[22:18:07] [Server thread/INFO]: Anti X-Ray: true
+[22:18:07] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:07] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:07] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:07] [Server thread/INFO]: Structure Info Saving: true
+[22:18:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:07] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:07] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:07] [Server thread/INFO]: View Distance: 10
+[22:18:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:07] [Server thread/INFO]: Clear tick list: false
+[22:18:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:07] [Server thread/INFO]: -------- World Settings For [PracticeHub] --------
+[22:18:07] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:07] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:07] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:07] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:07] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:07] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:07] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:07] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:07] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:07] [Server thread/INFO]: World async lighting: false
+[22:18:07] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:07] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:07] [Server thread/INFO]: Preparing start region for level 8 (Seed: 0)
+[22:18:07] [Server thread/INFO]: [Multiverse-Core] 9 - World(s) loaded.
+[22:18:07] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b691 (API v18) Enabled - By Rigby, fernferret, lithium3141 and main--
+[22:18:07] [Server thread/INFO]: [Spartan] Enabling Spartan vPhase 537.7
+[22:18:09] [Server thread/WARN]: [ProtocolLib] [PacketFilterManager] [Spartan] Unsupported server packet in current Minecraft version: MOUNT[PLAY, SERVER, 75, classNames: [net.minecraft.server.v1_8_R3.PacketPlayOutMount] (unregistered)]
+[22:18:09] [Server thread/WARN]: [ProtocolLib] [PacketFilterManager] [Spartan] Unsupported server packet in current Minecraft version: MOUNT[PLAY, SERVER, 75, classNames: [net.minecraft.server.v1_8_R3.PacketPlayOutMount] (unregistered)]
+[22:18:09] [Server thread/WARN]: [ProtocolLib] [PacketFilterManager] [Spartan] Unsupported client packet in current Minecraft version: USE_ITEM[PLAY, CLIENT, 44, classNames: [net.minecraft.server.v1_8_R3.PacketPlayInUseItem] (unregistered)]
+[22:18:09] [Server thread/INFO]: [csm] Enabling CustomServerMessages v5.2
+[22:18:09] [Server thread/INFO]: [0;34;1m[[0;36;1mCSM[0;34;1m] [0;33;1m[0;32;1mEnabled Custom Server Messages![m
+[22:18:09] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[22:18:09] [Server thread/INFO]: [PerWorldTablist] Enabling PerWorldTablist v1.1
+[22:18:09] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
+[22:18:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[22:18:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:18:09] [Thread-14/INFO]: [0;34;1m[[0;36;1mCSM[0;34;1m] [0;33;1mNo update available.[m
+[22:18:09] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[22:18:09] [Server thread/INFO]: [CustomTab] Enabling CustomTab v1.1
+[22:18:09] [Server thread/INFO]: [ProPractice] Enabling ProPractice v7.6
+[22:18:09] [Server thread/INFO]: [ProPractice] Initializing...
+[22:18:09] [Server thread/INFO]: [ProPractice] Initializing ConfigManager...
+[22:18:10] [Server thread/INFO]: [ProPractice] Initializing ArenaManager...
+[22:18:10] [Server thread/INFO]: -------- World Settings For [ProPractice-Arenas] --------
+[22:18:10] [Server thread/INFO]: Anti X-Ray: true
+[22:18:10] [Server thread/INFO]: 	Engine Mode: 1
+[22:18:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:18:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:18:10] [Server thread/INFO]: Mob Spawn Range: 4
+[22:18:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:18:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:18:10] [Server thread/INFO]: Random Lighting Updates: false
+[22:18:10] [Server thread/INFO]: Structure Info Saving: true
+[22:18:10] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:18:10] [Server thread/INFO]: Max Entity Collisions: 8
+[22:18:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:18:10] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:18:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:10] [Server thread/INFO]: View Distance: 10
+[22:18:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:18:10] [Server thread/INFO]: Clear tick list: false
+[22:18:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:10] [Server thread/INFO]: -------- World Settings For [ProPractice-Arenas] --------
+[22:18:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:18:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:18:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:18:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:18:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:18:10] [Server thread/INFO]: Water over lava flow speed: 5
+[22:18:10] [Server thread/INFO]: Fix TNT cannons: false
+[22:18:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:18:10] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:18:10] [Server thread/INFO]: World async lighting: false
+[22:18:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:18:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:18:10] [Server thread/INFO]: Preparing start region for level 9 (Seed: -4901345147939922758)
+[22:18:10] [Server thread/INFO]: [ProPractice] Initializing LadderManager...
+[22:18:10] [Server thread/INFO]: [ProPractice] Initializing MatchManager...
+[22:18:10] [Server thread/INFO]: [ProPractice] Initializing QueueManager...
+[22:18:10] [Server thread/INFO]: [ProPractice] Initializing ScoreboardManager...
+[22:18:10] [Server thread/INFO]: [ProPractice] Initializing PartyManager...
+[22:18:10] [Server thread/INFO]: [ProPractice] Initializing CommandManager...
+[22:18:10] [Server thread/INFO]: [ProPractice] Registering Events...
+[22:18:10] [Server thread/INFO]: [ProPractice] Initialized!
+[22:18:10] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[22:18:10] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[22:18:10] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[22:18:10] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[22:18:10] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[22:18:11] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[22:18:11] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_nether) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_nether'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_the_end'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ParaPvP) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ParaPvP) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ParaPvP) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ParaPvP) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ParaPvP'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Auth) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Auth) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Auth) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (Auth) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Auth'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (PracticeHub) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (PracticeHub) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (PracticeHub) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (PracticeHub) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'PracticeHub'
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ProPractice-Arenas) TNT ignition is PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ProPractice-Arenas) Lighters are PERMITTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ProPractice-Arenas) Lava fire is blocked.
+[22:18:11] [Server thread/INFO]: [WorldGuard] (ProPractice-Arenas) Fire spread is UNRESTRICTED.
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'ProPractice-Arenas'
+[22:18:11] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:18:11] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.16-SNAPSHOT (build 1272)
+[22:18:11] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
+[22:18:11] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[22:18:11] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[22:18:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.9.0]
+[22:18:12] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[22:18:12] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[22:18:12] [Server thread/INFO]: [FastLogin] Enabling FastLogin v1.12-SNAPSHOT-927f09a
+[22:18:12] [Server thread/WARN]: [FastLogin] Cannot check for Velocity support in Paper: com.destroystokyo.paper.PaperConfig
+[22:18:12] [Server thread/WARN]: [FastLogin] Disabling Minecraft proxy configuration. Assuming direct connections from now on.
+[22:18:12] [Server thread/INFO]: FastLogin - Starting...
+[22:18:12] [Server thread/INFO]: FastLogin - Driver does not support get/set network timeout for connections. (org.sqlite.Conn.getNetworkTimeout()I)
+[22:18:12] [Server thread/INFO]: FastLogin - Start completed.
+[22:18:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: FastLogin [1.12-SNAPSHOT-927f09a]
+[22:18:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:18:12] [Server thread/INFO]: Done (8.966s)! For help, type "help" or "?"
+[22:18:12] [Server thread/INFO]: Timings Reset
+[22:18:12] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+[22:18:12] [Craft Scheduler Thread - 4/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[22:18:12] [Craft Scheduler Thread - 2/INFO]: [SepareWorldItems] Backup created: groups_2024-12-15_22-18-12.zip
+[22:18:12] [Craft Scheduler Thread - 4/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[22:18:12] [Craft Scheduler Thread - 4/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[22:18:12] [Craft Scheduler Thread - 2/INFO]: [SepareWorldItems] Deleted old backup: groups_2024-12-15_20-15-18.zip
+[22:18:12] [Craft Scheduler Thread - 4/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[22:18:13] [Craft Scheduler Thread - 9/INFO]: [PerWorldChat] You are running the latest version.
+[22:18:13] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Plugin 'WorldGuard' found. Using it now.[m
+[22:18:13] [Server thread/INFO]: [Citizens] Loaded 6 NPCs.
+[22:18:13] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:18:13] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[22:18:13] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[22:18:13] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[22:18:13] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[22:18:13] [Craft Scheduler Thread - 3/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[22:18:13] [Craft Scheduler Thread - 3/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[22:18:13] [Server thread/INFO]: [FastLogin] Hooking into auth plugin: AuthMeHook
+[22:18:14] [pool-61-thread-1/INFO]: [ajLeaderboards] You are up to date! (2.9.0)
+[22:20:37] [Server thread/INFO]: [0;32;1m[[0;32;22mPWP[0;32;1m] [0;37;1mPerWorldPlugins successfully reloaded![m
+[22:20:40] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62633]
+[22:20:40] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:20:40] [Thread-19/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:20:40] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:20:40] [Server thread/INFO]: Frntts[/100.80.245.25:62633] logged in with entity id 132 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:20:41] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62633. 
+[22:20:41] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:20:45] [Craft Scheduler Thread - 3/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:20:49] [Server thread/INFO]: Frntts issued server command: /authme
+[22:21:51] [Server thread/INFO]: Frntts issued server command: /pwp reload
+[22:21:57] [Server thread/INFO]: Frntts issued server command: /we
+[22:22:06] [Server thread/INFO]: Frntts issued server command: /spawn
+[22:22:07] [Netty Epoll Server IO #1/ERROR]: [Spartan] Unhandled exception occured in onPacketReceiving(PacketEvent) for Spartan
+java.lang.NoSuchMethodError: com.comphenix.protocol.events.PacketContainer.getMovingBlockPositions()Lcom/comphenix/protocol/reflect/StructureModifier;
+	at com.vagdedes.spartan.b.b.a.a(Packet_BlockPlace.java:83) ~[Spartan-Phase%20537.7.jar:?]
+	at com.vagdedes.spartan.b.b.a.onPacketReceiving(Packet_BlockPlace.java:37) ~[Spartan-Phase%20537.7.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:350) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:315) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:538) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:259) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:22:07] [Netty Epoll Server IO #1/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace@3b9c0dc2[
+    b=BlockPosition{x=-1, y=-1, z=-1}
+    c=255
+    d=1xitem.swordIron@0
+    e=0.0
+    f=0.0
+    g=0.0
+    timestamp=1734301327691
+  ]
+
+[22:22:08] [Netty Epoll Server IO #1/ERROR]: [Spartan] Unhandled exception occured in onPacketReceiving(PacketEvent) for Spartan
+java.lang.NoSuchMethodError: com.comphenix.protocol.events.PacketContainer.getMovingBlockPositions()Lcom/comphenix/protocol/reflect/StructureModifier;
+	at com.vagdedes.spartan.b.b.a.a(Packet_BlockPlace.java:83) ~[Spartan-Phase%20537.7.jar:?]
+	at com.vagdedes.spartan.b.b.a.onPacketReceiving(Packet_BlockPlace.java:37) ~[Spartan-Phase%20537.7.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:350) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:315) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:538) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:259) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:22:08] [Netty Epoll Server IO #1/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace@31fa86b0[
+    b=BlockPosition{x=-1, y=-1, z=-1}
+    c=255
+    d=1xitem.swordIron@0
+    e=0.0
+    f=0.0
+    g=0.0
+    timestamp=1734301328195
+  ]
+
+[22:22:08] [Netty Epoll Server IO #1/ERROR]: [Spartan] Unhandled exception occured in onPacketReceiving(PacketEvent) for Spartan
+java.lang.NoSuchMethodError: com.comphenix.protocol.events.PacketContainer.getMovingBlockPositions()Lcom/comphenix/protocol/reflect/StructureModifier;
+	at com.vagdedes.spartan.b.b.a.a(Packet_BlockPlace.java:83) ~[Spartan-Phase%20537.7.jar:?]
+	at com.vagdedes.spartan.b.b.a.onPacketReceiving(Packet_BlockPlace.java:37) ~[Spartan-Phase%20537.7.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:350) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:315) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:538) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:259) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:22:08] [Netty Epoll Server IO #1/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace@25c85303[
+    b=BlockPosition{x=-1, y=-1, z=-1}
+    c=255
+    d=1xitem.swordIron@0
+    e=0.0
+    f=0.0
+    g=0.0
+    timestamp=1734301328492
+  ]
+
+[22:22:20] [Server thread/INFO]: Frntts issued server command: /we
+[22:22:43] [Server thread/INFO]: Frntts issued server command: /pwp reload
+[22:22:46] [Server thread/INFO]: Frntts issued server command: /we
+[22:22:53] [Server thread/INFO]: Frntts issued server command: /authme
+[22:23:11] [Server thread/INFO]: Frntts issued server command: /pwp reload
+[22:23:13] [Server thread/INFO]: Frntts issued server command: /auth
+[22:23:16] [Server thread/INFO]: Frntts issued server command: /authme
+[22:23:17] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:23:18] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62690]
+[22:23:18] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:23:18] [Thread-21/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:23:18] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:23:18] [Server thread/INFO]: Frntts[/100.80.245.25:62690] logged in with entity id 9409 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:23:19] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62690. 
+[22:23:19] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:23:29] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:24:00] [Server thread/INFO]: [0;32;1m[[0;32;22mPWP[0;32;1m] [0;37;1mPerWorldPlugins successfully reloaded![m
+[22:24:03] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62730]
+[22:24:03] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:24:03] [Thread-22/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:24:03] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:24:03] [Server thread/INFO]: Frntts[/100.80.245.25:62730] logged in with entity id 9617 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:24:04] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62730. 
+[22:24:04] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:24:05] [Craft Scheduler Thread - 3/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:24:11] [Server thread/INFO]: Frntts issued server command: /authme spawn
+[22:24:27] [Server thread/INFO]: Frntts issued server command: /authme
+[22:24:30] [Server thread/INFO]: Frntts issued server command: /authme help
+[22:25:10] [Server thread/INFO]: Frntts issued server command: /authme setfirstspawn
+[22:25:35] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:25:36] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62763]
+[22:25:36] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:25:36] [Thread-23/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:25:36] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:25:36] [Server thread/INFO]: Frntts[/100.80.245.25:62763] logged in with entity id 9946 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:25:37] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62763. 
+[22:25:37] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:25:41] [Craft Scheduler Thread - 10/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:25:46] [Server thread/INFO]: Frntts issued server command: /practice spawn
+[22:25:51] [Server thread/INFO]: Frntts issued server command: /practice help
+[22:26:00] [Server thread/INFO]: Frntts issued server command: /practice location
+[22:26:04] [Server thread/INFO]: Frntts issued server command: /practice location
+[22:27:10] [Server thread/INFO]: Frntts issued server command: /spawn
+[22:27:11] [Netty Epoll Server IO #0/ERROR]: [Spartan] Unhandled exception occured in onPacketReceiving(PacketEvent) for Spartan
+java.lang.NoSuchMethodError: com.comphenix.protocol.events.PacketContainer.getMovingBlockPositions()Lcom/comphenix/protocol/reflect/StructureModifier;
+	at com.vagdedes.spartan.b.b.a.a(Packet_BlockPlace.java:83) ~[Spartan-Phase%20537.7.jar:?]
+	at com.vagdedes.spartan.b.b.a.onPacketReceiving(Packet_BlockPlace.java:37) ~[Spartan-Phase%20537.7.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:350) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:315) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:538) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:259) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:27:11] [Netty Epoll Server IO #0/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace@3086ff30[
+    b=BlockPosition{x=-1, y=-1, z=-1}
+    c=255
+    d=1xitem.swordIron@0
+    e=0.0
+    f=0.0
+    g=0.0
+    timestamp=1734301631601
+  ]
+
+[22:27:11] [Netty Epoll Server IO #0/ERROR]: [Spartan] Unhandled exception occured in onPacketReceiving(PacketEvent) for Spartan
+java.lang.NoSuchMethodError: com.comphenix.protocol.events.PacketContainer.getMovingBlockPositions()Lcom/comphenix/protocol/reflect/StructureModifier;
+	at com.vagdedes.spartan.b.b.a.a(Packet_BlockPlace.java:83) ~[Spartan-Phase%20537.7.jar:?]
+	at com.vagdedes.spartan.b.b.a.onPacketReceiving(Packet_BlockPlace.java:37) ~[Spartan-Phase%20537.7.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:350) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:315) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:538) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:259) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:27:11] [Netty Epoll Server IO #0/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace@72d8ca64[
+    b=BlockPosition{x=-1, y=-1, z=-1}
+    c=255
+    d=1xitem.swordIron@0
+    e=0.0
+    f=0.0
+    g=0.0
+    timestamp=1734301631995
+  ]
+
+[22:27:14] [Server thread/INFO]: Frntts issued server command: /practice
+[22:27:30] [Server thread/INFO]: Frntts issued server command: /setspawn

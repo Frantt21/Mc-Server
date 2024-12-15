@@ -1,0 +1,39 @@
+# Config Langs
+# Config = 1.2.22
+# Prefix Value: %prefix%
+# Lang: DE
+# Here you can find the list of languages to which the plugin is already translated:
+# Github: https://github.com/Happyuky7/SEPARE-WORLD-ITEMS/tree/master/langs
+# Translate by: https://github.com/InfoBlock
+general:
+  prefix: "&8[&aSepareWorldItems&8]&r" #Value: %prefix%
+  reload: |-
+    &r  
+    &r%prefix% &2Konfiguration neu geladen.
+    &r &r
+  no-permission: |-
+    &r 
+    &r%prefix% &cKeine Rechte.
+    &r &r
+  unknown-cmd-args: |- 
+    &r 
+    &r%prefix% &cNutze:&f /separeworlditems help
+    &r &r
+  bypass:
+    bypass-warning-alert: |-
+      &r 
+      &r%prefix% &cAchtung! &fDu kannst deine Sachen verlieren, sei vorsichtig. Dieser Befehl ist nur für Team Mitglieder ausgelegt.
+      &r &r
+    bypass-enabled: |-
+      &r 
+      %prefix% &aUmgehung aktiviert.
+      &r &r
+    bypass-disabled: |-
+      &r 
+      %prefix% &cUmgehung deaktiviert.
+      &r &r
+    bypass-world-options:
+          use_bypass: |-
+            &r 
+            %prefix% &fAktiviere die &euse_bypass &fOption in der &aconfig.yml &fsetze es auf &ctrue.
+            &r &r

@@ -1,0 +1,18 @@
+arenas:
+  pots:
+    multiuse: false
+    spawn1: 236.7469898167116|64.0|-33.50893672974745|PracticeHub|48.49832|1.6548406
+    region1: 240.0|99.0|36.0|PracticeHub|0.0|0.0
+    region2: 166.0|56.0|-38.0|PracticeHub|0.0|0.0
+  uhc:
+    multiuse: false
+    spawn1: 2978.5740895201116|58.0|-38.397712206900394|PracticeHub|315.21088|1.8055125
+    spawn2: 3031.6524973907644|58.0|28.643236424141424|PracticeHub|148.45825|0.65206623
+    region1: 3034.0|87.0|31.0|PracticeHub|0.0|0.0
+    region2: 2976.0|54.0|-41.0|PracticeHub|0.0|0.0
+  pipi:
+    multiuse: false
+    spawn1: 584.9674593266642|14.0|-34.577703263593015|PracticeHub|2.8153076|-0.21005902
+    spawn2: 583.8503942754205|14.0|55.92023287527535|PracticeHub|179.8255|-2.0733225
+    region1: 611.0|53.0|57.0|PracticeHub|0.0|0.0
+    region2: 557.0|12.0|-38.0|PracticeHub|0.0|0.0

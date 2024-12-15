@@ -1,0 +1,11 @@
+Sounds:
+    Match:
+        Starting:
+            Sound: "NOTE_PLING"
+            Volume: 5
+            Pitch: 1
+
+        Started:
+            Sound: "NOTE_PLING"
+            Volume: 5
+            Pitch: 2

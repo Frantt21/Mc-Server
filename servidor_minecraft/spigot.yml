@@ -12,7 +12,6 @@
 
 config-version: 8
 settings:
-  debug: false
   save-user-cache-on-stop-only: false
   bungeecord: false
   late-bind: false
@@ -34,6 +33,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  debug: false
 timings:
   enabled: true
   verbose: true
@@ -87,8 +87,8 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
     mob-spawn-range: 4
+    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
