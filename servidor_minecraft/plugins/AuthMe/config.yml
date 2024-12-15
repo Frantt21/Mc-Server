@@ -157,7 +157,7 @@ settings:
             # authentication. The quit location of the player will be overwritten.
             # This is different from "teleportUnAuthedToSpawn" that teleport player
             # to the spawnpoint on join.
-            enabled: false
+            enabled: true
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
             worlds: 
@@ -207,7 +207,7 @@ settings:
         # permission: /authme.admin.accounts
         displayOtherAccounts: true
         # Spawn priority; values: authme, essentials, cmi, multiverse, default
-        spawnPriority: authme,essentials,cmi,multiverse,default
+        spawnPriority: authme,essentials,cmi,multiverse,propractice,default
         # Maximum Login authorized by IP
         maxLoginPerIp: 0
         # Maximum Join authorized by IP
@@ -303,7 +303,7 @@ settings:
     # {MAXPLAYERS}: display server slots, {IP}: player ip, {LOGINS}: number of players logged,
     # {WORLD}: player current world, {SERVER}: server name
     # {VERSION}: get current bukkit version, {COUNTRY}: player country
-    useWelcomeMessage: true
+    useWelcomeMessage: false
     # Broadcast the welcome message to the server or only to the player?
     # set true for server or false for player
     broadcastWelcomeMessage: false

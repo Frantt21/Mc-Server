@@ -1136,3 +1136,181 @@ java.lang.NoSuchMethodError: com.comphenix.protocol.events.PacketContainer.getMo
 
 [22:27:14] [Server thread/INFO]: Frntts issued server command: /practice
 [22:27:30] [Server thread/INFO]: Frntts issued server command: /setspawn
+[22:30:33] [Server thread/INFO]: CONSOLE issued server command: /ess reload
+[22:30:33] [Server thread/INFO]: Using locale es
+[22:30:33] [Server thread/INFO]: [0;33;22mEssentials ha sido recargado. La versión es[0;31;1m TeamCity.[m
+[22:30:38] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:30:40] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62862]
+[22:30:40] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:30:40] [Thread-24/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:30:40] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:30:40] [Server thread/INFO]: Frntts[/100.80.245.25:62862] logged in with entity id 35664 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:30:40] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62862. 
+[22:30:40] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:30:44] [Craft Scheduler Thread - 6/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:32:27] [Server thread/INFO]: Frntts issued server command: /authme reload
+[22:32:27] [Server thread/INFO]: [AuthMe] Unhooked from Permissions!
+[22:32:27] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[22:32:27] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[22:32:28] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:32:30] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62901]
+[22:32:30] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:32:30] [Thread-25/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:32:30] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:32:30] [Server thread/INFO]: Frntts[/100.80.245.25:62901] logged in with entity id 37601 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:32:30] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62901. 
+[22:32:30] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:32:33] [Craft Scheduler Thread - 3/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:32:50] [Server thread/INFO]: Frntts issued server command: /authme reload
+[22:32:50] [Server thread/INFO]: [AuthMe] Unhooked from Permissions!
+[22:32:50] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[22:32:50] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[22:32:52] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:32:53] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62918]
+[22:32:53] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:32:53] [Thread-26/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:32:53] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:32:53] [Server thread/INFO]: Frntts[/100.80.245.25:62918] logged in with entity id 37707 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:32:53] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62918. 
+[22:32:53] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:32:55] [Craft Scheduler Thread - 3/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:36:04] [Server thread/INFO]: [0;32;1m[[0;32;22mPWP[0;32;1m] [0;37;1mPerWorldPlugins successfully reloaded![m
+[22:36:07] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:36:08] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:62981]
+[22:36:08] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:36:08] [Thread-27/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:36:08] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:36:08] [Server thread/INFO]: Frntts[/100.80.245.25:62981] logged in with entity id 40797 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:36:08] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:62981. 
+[22:36:08] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:36:10] [Craft Scheduler Thread - 16/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:36:40] [Server thread/INFO]: Frntts issued server command: /pwp reload
+[22:36:41] [Server thread/INFO]: Frntts lost connection: Disconnected
+[22:36:42] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.80.245.25:63002]
+[22:36:42] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/ERROR]: [FastLogin] Unhandled exception occured in onAsyncPacket() for FastLogin
+java.lang.NoSuchMethodError: com.comphenix.protocol.wrappers.BukkitConverters.getWrappedPublicKeyDataConverter()Lcom/comphenix/protocol/reflect/EquivalentConverter;
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onLoginStart(ProtocolLibListener.java:248) ~[FastLoginBukkit.jar:?]
+	at com.github.games647.fastlogin.bukkit.listener.protocollib.ProtocolLibListener.onPacketReceiving(ProtocolLibListener.java:145) ~[FastLoginBukkit.jar:?]
+	at com.comphenix.protocol.async.AsyncListenerHandler.processPacket(AsyncListenerHandler.java:642) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.listenerLoop(AsyncListenerHandler.java:596) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler.access$200(AsyncListenerHandler.java:48) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$2.run(AsyncListenerHandler.java:229) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.async.AsyncListenerHandler$3.run(AsyncListenerHandler.java:300) [ProtocolLib%20(2).jar:4.5.1]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_432]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_432]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:36:42] [Thread-28/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[22:36:42] [Server thread/INFO]: {textures=WrappedSignedProperty[name=textures, value=ewogICJ0aW1lc3RhbXAiIDogMTczNDI5Njk5ODg2OSwKICAicHJvZmlsZUlkIiA6ICIzNmZhYzAyYmE1MzU0YzAxYjZiYzc4OTA4YjgwMjNiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm50dHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTVkNjAzNGU4NGI1Y2ZmZDE5YzU1YzgyZmFhMjdhMjBlNzA0YWMxYjAxZTJlOWZjZTJlMjkyMDA2YjBmOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVjMjk0MTAwNTdlMzJhYmVjMDJkODcwZWNiNTJlYzI1ZmI0NWVhODFlNzg1YTc4NTRhZTg0MjlkNzIzNmNhMjYiCiAgICB9CiAgfQp9, signature=mMUjnjSDahzGt2sU8s8flhxH0m4fsSMyF9P5sHGz274cnRW/vlo/77SYZd8h7ioqzoVb2faRQXpJxyReksIM0ggir8YYXlZRipQxohCOTad1DUk2syJtbhuogp0HHiY4rC5PeyJTULa0orvEl930e3su8y32b3s/WVsNxjY6inFRdDlbPCxkQ/7SD7SLYqIj9kpphajB6juqfeR4Eh1E4cGdo1t0jLkcPZl5MQk7AOJaYUcuaHd4RtwqsFAbjZZ08kTRS6nzBh6OtjhnniKCoqVWdWMvK6E/oLRTqh+F73fNJfcN3d8lSgSJcy6RCKJUD9Gv7UYPajoMeIo7pKZ8X+8fXlgPROA4SZezFqbiB47FobTLlgFJ1hIJMCU0LQ3AvZQLf+h+mAjfgkriVTGstBi1i55wvpdJcsQW7T8cXRX1eoLOecEpgmMLyu3BErXGQkGiAdWUUOAUlDzHWXcFmNYf48IXCXQTVo6wCwzJKyIEPAxqVYHk3ZKRs+y4BnejUs/8vMh5gPUxAdWSxBVJ670g5XkDOZ4DSnViZinvQRZJp2tJd9dlBopn6gcjlmJpjB0DrSry4xcQclsS8FeUn5ChxWKwEmSaVwfT6PWUUK40qjJl44oZkNNsKWROl3ZDUGGnLimhf7ORTxZOTgZc+VmiV61FaRdzTH7K9QW7uJM=]}
+[22:36:42] [Server thread/INFO]: Frntts[/100.80.245.25:63002] logged in with entity id 41300 at ([ParaPvP]36.48755200000733, 71.0, 27.52901929226356)
+[22:36:43] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frntts} with ID 100.80.245.25:63002. 
+[22:36:43] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:36:44] [Craft Scheduler Thread - 12/INFO]: [AuthMe] Frntts logged in 100.80.245.25
+[22:36:52] [Server thread/INFO]: Frntts issued server command: /spawn
+[22:37:02] [Server thread/INFO]: Frntts issued server command: /authme spawn
+[22:37:06] [Netty Epoll Server IO #2/ERROR]: [Spartan] Unhandled exception occured in onPacketReceiving(PacketEvent) for Spartan
+java.lang.NoSuchMethodError: com.comphenix.protocol.events.PacketContainer.getMovingBlockPositions()Lcom/comphenix/protocol/reflect/StructureModifier;
+	at com.vagdedes.spartan.b.b.a.a(Packet_BlockPlace.java:83) ~[Spartan-Phase%20537.7.jar:?]
+	at com.vagdedes.spartan.b.b.a.onPacketReceiving(Packet_BlockPlace.java:37) ~[Spartan-Phase%20537.7.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:350) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:315) [ProtocolLib%20(2).jar:4.5.1]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:538) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:259) [ProtocolLib%20(2).jar:4.5.1]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[22:37:06] [Netty Epoll Server IO #2/ERROR]: Parameters: 
+  net.minecraft.server.v1_8_R3.PacketPlayInBlockPlace@11a993b[
+    b=BlockPosition{x=-1, y=-1, z=-1}
+    c=255
+    d=1xitem.swordIron@0
+    e=0.0
+    f=0.0
+    g=0.0
+    timestamp=1734302226599
+  ]
+
+[22:37:12] [Server thread/INFO]: Frntts issued server command: /practice spawn
+[22:37:21] [Server thread/INFO]: Frntts issued server command: /mv tp auth
+[22:37:23] [Server thread/INFO]: Frntts issued server command: /authme spawn
+[22:37:27] [Server thread/INFO]: Frntts issued server command: /authme help
