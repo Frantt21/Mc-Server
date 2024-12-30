@@ -1,21 +1,40 @@
-lastAccountName: Frntts
-timestamps:
-  login: 1734302805500
-  logout: 1734302802384
-  lastteleport: 1734302870684
-ipAddress: 100.80.245.25
-lastlocation:
-  world: Lobby
-  x: -23.50077758422242
-  y: 60.0
-  z: 13.6078351390736
-  yaw: -334.5455
-  pitch: 11.712181
-logoutlocation:
-  world: Auth
-  x: 15.601570238838265
-  y: 58.0
-  z: -6.212170222338406
-  yaw: -354.18384
-  pitch: 2.0487823
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 100.71.19.86
 afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1735515018816
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735520260900
+  login: 1735517163965
+  kits:
+    color: 1735504439643
+money: '53.0'
+logoutlocation:
+  world: e5a7d056-1358-4ae4-b5e4-7f55790e3269
+  world-name: Lobby
+  x: 376.34495718059554
+  y: 9.13347179924995
+  z: 511.751284411566
+  yaw: 127.24514770507812
+  pitch: -0.3516053259372711
+last-account-name: Frntts
+lastlocation:
+  world: d31d1b94-8543-48cb-afb7-7993b4d2655f
+  world-name: world
+  x: -17.86160742075966
+  y: 111.0
+  z: 79.98234542641971
+  yaw: -92.64022827148438
+  pitch: -1.317889928817749

@@ -1,0 +1,90 @@
+panels:
+  panel-2:
+    perm: default
+    rows: 5
+    commands:
+    - menu
+    - mwarps
+    title: '&eWarps'
+    item:
+      '9':
+        material: RED_BED
+        stack: 1
+        name: '&a&lCasa'
+        lore:
+        - '&fVuelve a tu casa'
+        - '&f'
+        - '&fSi aún no tienes una,'
+        - '&futiliza &e/sethome &fpara'
+        - '&festablecer tu casa.'
+        - ''
+        - '&a¡Clic izquierdo para viajar!'
+        commands:
+        - cpc
+        - home
+      '11':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '18':
+        material: NETHER_STAR
+        stack: 1
+        name: '&c&lLobby'
+        lore:
+        - '&fVuelve al spawn del servidor'
+        - ''
+        - '&a¡Clic para viajar!'
+        commands:
+        - cpc
+        - spawn
+      '20':
+        material: GRAY_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '22':
+        material: GRASS_BLOCK
+        stack: 1
+        name: '&2&lSurival'
+        lore:
+        - '&fEmpieza tu aventura en un mundo'
+        - '&fhostil. Preparate y lucha contra'
+        - '&fmounstros para conseguir recursos.'
+        - ''
+        - '&a¡Clic izquierdo para viajar!'
+        commands:
+        - cpc
+        - warp survival
+      '23':
+        material: DIAMOND_PICKAXE
+        stack: 1
+        name: '&f&lZona de &9&lMinas'
+        lore:
+        - '&fViaja a una mina random dentro'
+        - '&fdel mundo supervivencia.'
+        - ''
+        - '&a¡Clic izquierdo para viajar!'
+      '24':
+        material: DIAMOND_SWORD
+        stack: 1
+        name: '&f&lZona &c&lPvP'
+        lore:
+        - '&fViaja a una zona hostil donde'
+        - '&fpodras enfrentarte en 1v1 contra'
+        - '&fotro jugador.'
+        - ''
+        - '&a¡Clic derecho para viajar!'
+      '27':
+        material: PLAYER_HEAD
+        stack: 1
+        name: '&e&lPerfil'
+        lore:
+        - '&fMira la informacion de tú cuenta'
+        - ''
+        - '&a¡Clic para ver!'
+        commands:
+        - cpc
+        - profile
+      '29':
+        material: ORANGE_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '

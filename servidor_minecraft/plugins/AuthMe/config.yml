@@ -110,7 +110,7 @@ settings:
         timeout: 10
     # Message language, available languages:
     # https://github.com/AuthMe/AuthMeReloaded/blob/master/docs/translations.md
-    messagesLanguage: en
+    messagesLanguage: es
     # Forces authme to hook into Vault instead of a specific permission handler system.
     forceVaultHook: false
     # Log level: INFO, FINE, DEBUG. Use INFO for general messages,
@@ -142,7 +142,7 @@ settings:
         - /totp
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
-        maxRegPerIp: 1
+        maxRegPerIp: 5
         # Minimum allowed username length
         minNicknameLength: 3
         # Maximum allowed username length
@@ -157,11 +157,10 @@ settings:
             # authentication. The quit location of the player will be overwritten.
             # This is different from "teleportUnAuthedToSpawn" that teleport player
             # to the spawnpoint on join.
-            enabled: true
+            enabled: false
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
-            worlds:
-            - Hub
+            worlds: 
             - world
             - world_nether
             - world_the_end
@@ -206,7 +205,7 @@ settings:
         # permission: /authme.admin.accounts
         displayOtherAccounts: true
         # Spawn priority; values: authme, essentials, cmi, multiverse, default
-        spawnPriority: authme,essentials,cmi,multiverse,propractice,default
+        spawnPriority: authme,essentials,cmi,multiverse,default
         # Maximum Login authorized by IP
         maxLoginPerIp: 0
         # Maximum Join authorized by IP
@@ -219,7 +218,7 @@ settings:
         allowedPasswordCharacters: '[!-~]*'
     GameMode:
         # Force survival gamemode when player joins?
-        ForceSurvivalMode: false
+        ForceSurvivalMode: true
     unrestrictions:
         # Below you can list all account names that AuthMe will ignore
         # for registration or login. Configure it at your own risk!!
@@ -277,7 +276,7 @@ settings:
         enabled: true
         # Send every X seconds a message to a player to
         # remind him that he has to login/register
-        messageInterval: 5
+        messageInterval: 30
         # Only registered and logged in players can play.
         # See restrictions for exceptions
         force: true

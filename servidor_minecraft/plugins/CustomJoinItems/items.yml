@@ -1,0 +1,34 @@
+Warps:
+  name: '&aWarps'
+  id: 345
+  slot: 1
+  lore:
+    - '&fViaja entre lugares dentro del'
+    - '&fmundo survival'
+    - ''
+    - '&a¡Clic derecho para ver!'
+  command: 'mwarps'
+  cooldown-seconds: 5
+  disabled-worlds: world, world_nether, world_the_end
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: true
+  give-on-world-change: true
+Tienda:
+  name: '&6Tienda'
+  id: 54
+  slot: 5
+  lore:
+    - '&fCompra objetos que te servirán dentro'
+    - '&fdel survival.'
+    - ''
+    - '&a¡Clic derecho para ver!'
+  command: 'mshop'
+  cooldown-seconds: 5
+  disabled-worlds: world, world_nether, world_the_end
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: true
+  give-on-world-change: true
