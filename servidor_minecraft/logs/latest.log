@@ -515,3 +515,22 @@
 [01:00:21] [Craft Scheduler Thread - 11 - BetterProfiles/INFO]: [BetterProfiles] Checking for updates...
 [01:00:21] [Craft Scheduler Thread - 11 - BetterProfiles/INFO]: [BetterProfiles] Plugin up-to-date! You have the latest version!
 [01:00:50] [Server thread/INFO]: [AlonsoLevels] Leaderboard is disabled! Skipping..
+[02:35:09] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/127.40.54.177:55043]
+[02:35:09] [Craft Scheduler Thread - 33 - FastLogin/INFO]: [FastLogin] Requesting premium login for registered player: Frntts
+[02:35:10] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1] from UNKNOWN[/127.40.54.177:55043]
+[02:35:10] [Craft Scheduler Thread - 33 - FastLogin/INFO]: [FastLogin] Enabling onlinemode encryption for /127.40.54.177:55043
+[02:35:10] [Craft Scheduler Thread - 33 - FastLogin/INFO]: [FastLogin] Profile Frntts has a verified premium account
+[02:35:11] [User Authenticator #1/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[02:35:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Frntts's group (dev) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[02:35:11] [Server thread/INFO]: Frntts joined the game
+[02:35:11] [Server thread/INFO]: Frntts[/127.40.54.177:55043] logged in with entity id 430 at ([Lobby]376.34495718059554, 9.13347179924995, 511.751284411566)
+[02:35:12] [Craft Scheduler Thread - 25 - FastLogin/INFO]: [FastLogin] Logging player Frntts in
+[02:35:12] [Craft Scheduler Thread - 25 - AuthMe/INFO]: [AuthMe] Frntts logged in 127.40.54.177
+[02:37:30] [Server thread/INFO]: Frntts issued server command: /mshop
+[02:37:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_19_R1! Trying to find NMS support
+[02:37:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
+[02:37:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[02:40:13] [Server thread/INFO]: Frntts issued server command: /cpr
+[02:40:14] [Server thread/INFO]: Frntts issued server command: /mshop
+[02:40:24] [Server thread/INFO]: Frntts issued server command: /mshop
+[02:40:46] [Server thread/INFO]: Frntts issued server command: /mshop

@@ -16,10 +16,19 @@ panels:
         - '&fpara obtener objetos mejorados.'
         - ''
         - '&a¡Clic para ver!'
+        commands:
+        - kit
       '22':
         material: OAK_SIGN
         stack: 1
         name: '&b&lObjetos'
+        lore:
+        - '&fCompra diferentes objetos que te'
+        - '&fayudaran a sobrevivir en tu aventura.'
+        - ''
+        - '&a¡Clic para ver!'
+        commands:
+        - shop
       '24':
         material: EMERALD_ORE
         stack: 1
@@ -29,6 +38,9 @@ panels:
         - '&fprotecciones para tus zonas.'
         - ''
         - '&a¡Clic para ver!'
+        commands:
+        - cpc
+        - prote
       '40':
         material: BARRIER
         stack: 1
