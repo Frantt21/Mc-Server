@@ -534,3 +534,11 @@
 [02:40:14] [Server thread/INFO]: Frntts issued server command: /mshop
 [02:40:24] [Server thread/INFO]: Frntts issued server command: /mshop
 [02:40:46] [Server thread/INFO]: Frntts issued server command: /mshop
+[02:47:48] [Server thread/INFO]: Reloading Geyser configurations... all connected bedrock clients will be kicked.
+[02:47:48] [Geyser Scheduled Thread-2-1/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[02:47:48] [epollEventLoopGroup-9-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 28444
+[02:48:30] [Server thread/INFO]: Frntts lost connection: Disconnected
+[02:48:30] [Server thread/INFO]: Frntts left the game
+[02:49:55] [Server thread/INFO]: Reloading Geyser configurations... all connected bedrock clients will be kicked.
+[02:49:55] [Geyser Scheduled Thread-8-1/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[02:49:56] [epollEventLoopGroup-13-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
