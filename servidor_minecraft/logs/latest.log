@@ -598,3 +598,10 @@
 [06:00:14] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 2
 [06:00:16] [Server thread/INFO]: Frntts issued server command: /enchant efficiency 2
 [06:00:18] [Server thread/INFO]: Frntts issued server command: /enchant efficiency 2
+[06:06:19] [Server thread/INFO]: Frntts issued server command: /playerkits create ConstruccionLegacy
+[06:08:42] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[06:08:43] [Server thread/INFO]: Frntts issued server command: /mshop
+[06:08:52] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[06:08:53] [Server thread/INFO]: Frntts issued server command: /mshop
+[06:09:23] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[06:09:25] [Server thread/INFO]: Frntts issued server command: /mshop

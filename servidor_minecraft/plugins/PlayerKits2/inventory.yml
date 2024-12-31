@@ -14,8 +14,10 @@ inventories:
     '20':
       type: 'kit: Inicio'
     '21':
-      type: 'kit: Diamantes'
+      type: 'kit: ConstruccionLegacy'
     '22':
+      type: 'kit: Diamantes'
+    '23':
       type: 'kit: Diamante+'
   premium_kits_inventory:
     slots: 54
