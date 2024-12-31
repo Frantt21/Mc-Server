@@ -1,1 +1,6 @@
 name: Frntts
+kits:
+  Diamante+:
+    cooldown: 0
+    one_time: false
+    bought: true

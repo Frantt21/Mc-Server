@@ -149,7 +149,7 @@ display:
     item_flags:
     - HIDE_ATTRIBUTES
 requirements:
-  one_time_requirements: false
+  one_time_requirements: true
   price: 8000
   message:
   - '&fNecesitas $8000'
