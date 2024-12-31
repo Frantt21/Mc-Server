@@ -608,3 +608,5 @@
 [06:47:26] [Server thread/INFO]: Frntts issued server command: /mshop
 [08:46:26] [Server thread/INFO]: Frntts lost connection: Timed out
 [08:46:26] [Server thread/INFO]: Frntts left the game
+[10:46:15] [Craft Scheduler Thread - 98 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:46:15] [Craft Scheduler Thread - 98 - Vault/INFO]: [Vault] No new version available
