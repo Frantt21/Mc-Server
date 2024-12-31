@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.99.25.130
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,19 +16,19 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1735532588711
-  login: 1735620435797
+  logout: 1735623808851
+  login: 1735623818695
   kits:
     color: 1735504439643
 money: '13.0'
 logoutlocation:
   world: e5a7d056-1358-4ae4-b5e4-7f55790e3269
   world-name: Lobby
-  x: 369.71959386864154
-  y: 6.0
-  z: 510.4128474507241
-  yaw: -29.303415298461914
-  pitch: 3.0306239128112793
+  x: 384.10092778624823
+  y: 8.0
+  z: 516.5532608496627
+  yaw: 110.05877685546875
+  pitch: 3.755357265472412
 last-account-name: Frntts
 lastlocation:
   world: d31d1b94-8543-48cb-afb7-7993b4d2655f
