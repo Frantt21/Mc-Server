@@ -122,10 +122,14 @@ display:
     name: '&f&lKit &b&l%kit_name%'
     amount: 1
     lore:
-    - '&fThis is a description of the kit.'
+    - '&f¡Diamantes! Pero encantados.'
+    - '&fHerramientas y armadura con'
+    - '&fencantamientos nivel 2.'
     - ''
-    - '&7Edit it on the &c%kit_name%.yml &7file'
-    - '&7or using &c/kit edit %kit_name%'
+    - '&fPrecio: &a$8000'
+    - ''
+    - '&e¡Clic derecho para ver el kit!'
+    - '&a¡Clic izquierdo para equipar!'
     item_flags:
     - HIDE_ATTRIBUTES
   no_permission:
@@ -144,3 +148,9 @@ display:
     - '&cto claim this kit again.'
     item_flags:
     - HIDE_ATTRIBUTES
+requirements:
+  one_time_requirements: false
+  price: 8000
+  message:
+  - '&fNecesitas $8000'
+  - '&8Balance: &7$%vault_eco_balance% %status_symbol_price%'

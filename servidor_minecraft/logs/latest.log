@@ -573,3 +573,12 @@
 [05:43:38] [Server thread/INFO]: Frntts[/127.99.25.130:43525] logged in with entity id 120161 at ([Lobby]384.10092778624823, 8.0, 516.5532608496627)
 [05:43:39] [Craft Scheduler Thread - 28 - FastLogin/INFO]: [FastLogin] Logging player Frntts in
 [05:43:39] [Craft Scheduler Thread - 28 - AuthMe/INFO]: [AuthMe] Frntts logged in 127.99.25.130
+[05:48:30] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:48:31] [Server thread/INFO]: Frntts issued server command: /mshop
+[05:50:03] [Server thread/INFO]: Frntts issued server command: /mshop
+[05:50:42] [Server thread/INFO]: Frntts issued server command: /mwarps
+[05:50:47] [Server thread/INFO]: Frntts issued server command: /kits
+[05:51:07] [Server thread/INFO]: Frntts issued server command: /economy give Frntts 100000
+[05:51:12] [Server thread/INFO]: Frntts issued server command: /kits
+[05:52:07] [Server thread/INFO]: Frntts issued server command: /kits
+[05:52:15] [Server thread/INFO]: Frntts issued server command: /spawn

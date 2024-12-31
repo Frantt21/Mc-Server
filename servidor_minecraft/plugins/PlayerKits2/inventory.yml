@@ -15,7 +15,7 @@ inventories:
       type: 'kit: Inicio'
     '21':
       type: 'kit: Diamantes'
-    '2':
+    '22':
       type: 'kit: Diamante+'
   premium_kits_inventory:
     slots: 54

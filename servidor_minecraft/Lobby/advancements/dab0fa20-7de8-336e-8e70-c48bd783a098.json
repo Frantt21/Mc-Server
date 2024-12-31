@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-12-31 05:51:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
     "criteria": {
       "has_diamond_ore": "2024-12-30 04:01:48 +0000"
@@ -257,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-12-31 05:51:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2024-12-29 21:35:39 +0000"
@@ -363,6 +375,12 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2024-12-29 20:29:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-31 05:51:32 +0000"
     },
     "done": true
   },
