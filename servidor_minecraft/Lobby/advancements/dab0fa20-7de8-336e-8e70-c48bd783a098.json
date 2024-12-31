@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2024-12-30 04:01:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-29 21:35:41 +0000"
@@ -74,6 +80,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:birch_forest": "2024-12-29 22:49:10 +0000",
+      "minecraft:sparse_jungle": "2024-12-30 03:33:46 +0000",
       "minecraft:grove": "2024-12-29 22:36:31 +0000",
       "minecraft:forest": "2024-12-29 22:31:19 +0000",
       "minecraft:jungle": "2024-12-29 20:29:26 +0000",
@@ -97,6 +104,18 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2024-12-29 23:09:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2024-12-30 04:01:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-12-30 04:01:49 +0000"
     },
     "done": true
   },
@@ -196,6 +215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2024-12-30 04:01:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2024-12-29 20:29:27 +0000"
@@ -274,6 +299,18 @@
       "minecraft:zombie": "2024-12-29 23:00:36 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-12-30 04:01:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-12-30 04:01:41 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
@@ -368,6 +405,18 @@
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2024-12-29 22:49:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2024-12-30 04:01:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2024-12-30 04:01:43 +0000"
     },
     "done": true
   },

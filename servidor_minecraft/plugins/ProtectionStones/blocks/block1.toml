@@ -5,7 +5,7 @@
 # To use custom player heads, you need the base64 value of the head. On minecraft-heads.com, you will find this value in the Other section under "Value:".
 # To use UUIDs for player heads, go to https://sessionserver.mojang.com/session/minecraft/profile/PUT-UUID-HERE and copy the value from the "value" field not including quotes.
 # When you have the value, you can set the type to "PLAYER_HEAD:value"
-type = "EMERALD_ORE"
+type = "COAL_ORE"
 
 # Another way to refer to the protection stone
 # Can be used for /ps give and /ps get
@@ -165,7 +165,7 @@ placing_bypasses_wg_passthrough = true
     # Add price when using /ps get
     # Must have compatible economy plugin (requires Vault, ie. Essentials)
     # Must be a decimal (ex. not 10, but 10.0)
-    price = 0.0
+    price = 200.0
 
     # Whether or not to allow crafting this item using a custom recipe
     # Useful to allow crafting the item when restrict_obtaining is set to true

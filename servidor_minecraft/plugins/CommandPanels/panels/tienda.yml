@@ -39,8 +39,7 @@ panels:
         - ''
         - '&a¡Clic para ver!'
         commands:
-        - cpc
-        - prote
+        - cp panel-3
       '40':
         material: BARRIER
         stack: 1
