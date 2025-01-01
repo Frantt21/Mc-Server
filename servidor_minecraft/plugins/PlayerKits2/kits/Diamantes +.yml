@@ -1,0 +1,156 @@
+cooldown: 3600
+one_time: false
+auto_armor: true
+permission_required: false
+save_original_items: true
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 2
+          DURABILITY: 2
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: GOLDEN_APPLE
+      amount: 15
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: GOLDEN_CARROT
+      amount: 32
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_FALL: 2
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3105
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false
+display:
+  default:
+    id: DIAMOND_SWORD
+    name: '&f&lKit &b&l%kit_name%'
+    amount: 1
+    lore:
+    - '&f¡Diamantes! Pero encantados.'
+    - '&fHerramientas y armadura con'
+    - '&fencantamientos nivel 2.'
+    - ''
+    - '&fPrecio: &a$8000'
+    - ''
+    - '&e¡Clic derecho para ver el kit!'
+    - '&a¡Clic izquierdo para equipar!'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+requirements:
+  one_time_requirements: true
+  price: 8000
+  message:
+  - '&fNecesitas $8000'
+  - '&8Balance: &7$%vault_eco_balance% %status_symbol_price%'

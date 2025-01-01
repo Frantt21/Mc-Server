@@ -14,11 +14,13 @@ inventories:
     '20':
       type: 'kit: Inicio'
     '21':
-      type: 'kit: ConstruccionLegacy'
+      type: 'kit: Construccion Legacy'
     '22':
       type: 'kit: Diamantes'
     '23':
-      type: 'kit: Diamante+'
+      type: 'kit: Diamantes +'
+    '24':
+      type: 'kit: Curador I'
   premium_kits_inventory:
     slots: 54
     title: '&e&lPremium Kits'
