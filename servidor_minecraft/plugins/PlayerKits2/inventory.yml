@@ -25,6 +25,8 @@ inventories:
       type: 'kit: Inmortal'
     '12':
       type: 'kit: Flechero'
+    '13':
+      type: 'kit: Cocinero'
   premium_kits_inventory:
     slots: 54
     title: '&e&lPremium Kits'
