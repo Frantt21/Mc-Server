@@ -114,7 +114,7 @@ display:
     name: '&f&lKit &3&l%kit_name%'
     amount: 1
     lore:
-    - '&fNo muerdas de hambre y obten'
+    - '&fNo mueras de hambre y obten'
     - '&fmucha comida para sobrevivir.'
     - ''
     - '&fPrecio: &a$6000'

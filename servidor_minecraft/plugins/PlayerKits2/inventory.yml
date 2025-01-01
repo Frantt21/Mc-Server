@@ -27,6 +27,8 @@ inventories:
       type: 'kit: Flechero'
     '13':
       type: 'kit: Cocinero'
+    '14':
+      type: 'kit: Volador'
   premium_kits_inventory:
     slots: 54
     title: '&e&lPremium Kits'
@@ -41,11 +43,11 @@ inventories:
       open_inventory: main_inventory
   preview_inventory:
     slots: 54
-    title: '&4&lKit Preview'
+    title: '&4&lVista previa'
     '45':
       item:
         id: ARROW
-        name: '&7Go Back'
+        name: '&7Volver'
       open_inventory: previous
   buy_requirements_inventory:
     slots: 27

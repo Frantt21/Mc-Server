@@ -612,3 +612,13 @@
 [05:46:41] [Server thread/INFO]: Frntts issued server command: /enchant impaling 3
 [05:46:58] [Server thread/INFO]: Frntts issued server command: /enchant channelling 3
 [05:47:36] [Server thread/INFO]: Frntts issued server command: /enchant channelling
+[05:47:59] [Server thread/INFO]: Frntts issued server command: /playerkits create Volador configurable
+[05:50:00] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:50:03] [Server thread/INFO]: Frntts issued server command: /kits
+[05:51:01] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:51:02] [Server thread/INFO]: Frntts issued server command: /kits
+[05:51:25] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:51:25] [Server thread/INFO]: Frntts issued server command: /kits
+[05:53:07] [Server thread/INFO]: Frntts issued server command: /kits
+[05:54:16] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:54:17] [Server thread/INFO]: Frntts issued server command: /kits
