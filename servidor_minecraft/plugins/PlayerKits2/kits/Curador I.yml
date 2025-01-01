@@ -252,7 +252,7 @@ display:
       extended: false
       upgraded: false
       type: INSTANT_HEAL
-    name: '&f&lKit &6&l%kit_name%'
+    name: '&f&lKit &c&l%kit_name%'
     amount: 1
     lore:
     - '&fRecupera vida de forma instantanea.'

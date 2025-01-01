@@ -45,7 +45,7 @@ actions:
 display:
   default:
     id: STONE_SWORD
-    name: '&f&lKit de &a&l%kit_name%'
+    name: '&f&lKit &7&l%kit_name%'
     amount: 1
     lore:
     - '&fCon este kit podras empezar.'

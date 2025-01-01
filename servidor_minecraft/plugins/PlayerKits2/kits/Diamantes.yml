@@ -45,7 +45,7 @@ actions:
 display:
   default:
     id: DIAMOND
-    name: '&f&lKit de &b&l%kit_name%'
+    name: '&f&lKit &b&l%kit_name%'
     amount: 1
     lore:
     - '&f¡Diamantes! Un kit que avanzado'
