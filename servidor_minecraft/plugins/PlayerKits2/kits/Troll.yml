@@ -4,36 +4,76 @@ auto_armor: true
 permission_required: false
 save_original_items: false
 items:
-  '1':
-    id: DIAMOND_SWORD
-    amount: 1
-  '2':
-    id: DIAMOND_AXE
-    amount: 1
   '3':
-    id: DIAMOND_SHOVEL
-    amount: 1
+    id: TNT
+    amount: 64
   '4':
-    id: DIAMOND_PICKAXE
-    amount: 1
+    id: TNT
+    amount: 64
   '5':
-    id: COOKED_BEEF
+    id: REDSTONE
     amount: 64
   '6':
-    id: DIAMOND
-    amount: 32
+    id: REDSTONE
+    amount: 64
   '7':
-    id: DIAMOND_BOOTS
-    amount: 1
+    id: STICKY_PISTON
+    amount: 32
   '8':
-    id: DIAMOND_LEGGINGS
-    amount: 1
+    id: STICKY_PISTON
+    amount: 32
   '9':
-    id: DIAMOND_CHESTPLATE
-    amount: 1
+    id: TRIPWIRE_HOOK
+    amount: 32
   '10':
-    id: DIAMOND_HELMET
+    id: STRING
+    amount: 64
+  '11':
+    id: STRING
+    amount: 64
+  '12':
+    id: TNT
+    amount: 64
+  '13':
+    id: TNT
+    amount: 64
+  '14':
+    id: REDSTONE
+    amount: 64
+  '15':
+    id: REDSTONE
+    amount: 64
+  '16':
+    id: PISTON
+    amount: 32
+  '17':
+    id: PISTON
+    amount: 32
+  '18':
+    id: TRIPWIRE_HOOK
+    amount: 32
+  '19':
+    id: STRING
+    amount: 64
+  '20':
+    id: STRING
+    amount: 64
+  '21':
+    id: WATER_BUCKET
     amount: 1
+  '22':
+    id: WATER_BUCKET
+    amount: 1
+  '23':
+    id: WATER_BUCKET
+    amount: 1
+  '24':
+    id: WATER_BUCKET
+    amount: 1
+  '25':
+    id: LEATHER_HELMET
+    amount: 1
+    color: 11546150
 actions:
   claim:
     '1':
@@ -47,14 +87,13 @@ actions:
       count_as_item: false
 display:
   default:
-    id: DIAMOND
-    name: '&f&lKit &b&l%kit_name%'
+    id: TNT
+    name: '&f&lKit &4&l%kit_name%'
     amount: 1
     lore:
-    - '&f¡Diamantes! Un kit que avanzado'
-    - '&fcon mejor armadura y herramientas.'
+    - '&f¿Que te parece un poco de tnt?'
     - ''
-    - '&fPrecio: &a$5000'
+    - '&fPrecio: &a$7500'
     - ''
     - '&e¡Clic derecho para ver el kit!'
     - '&a¡Clic izquierdo para equipar!'
@@ -78,7 +117,7 @@ display:
     - HIDE_ATTRIBUTES
 requirements:
   one_time_requirements: true
-  price: 5000
+  price: 7500
   message:
-  - '&fNecesitas $5000'
+  - '&fNecesitas $7500'
   - '&8Balance: &7$%vault_eco_balance% %status_symbol_price%'

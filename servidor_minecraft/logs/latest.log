@@ -569,3 +569,15 @@
 [05:14:39] [Server thread/INFO]: Frntts issued server command: /playerkits reload
 [05:14:39] [Server thread/INFO]: Frntts issued server command: /mshop
 [05:15:12] [Server thread/INFO]: Frntts issued server command: /mshop
+[05:17:56] [Server thread/INFO]: Frntts issued server command: /playerkits create Troll configurable
+[05:21:07] [Server thread/INFO]: Frntts issued server command: /mshop
+[05:23:23] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:23:24] [Server thread/INFO]: Frntts issued server command: /mshop
+[05:23:54] [Server thread/INFO]: Frntts issued server command: /mwarps
+[05:24:08] [Server thread/INFO]: Frntts issued server command: /kits
+[05:24:29] [Server thread/INFO]: Frntts issued server command: /kits
+[05:25:26] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:25:27] [Server thread/INFO]: Frntts issued server command: /kits
+[05:25:39] [Server thread/INFO]: Frntts issued server command: /kits
+[05:26:17] [Server thread/INFO]: Frntts issued server command: /kits
+[05:27:05] [Server thread/INFO]: Frntts issued server command: /playerkits reload

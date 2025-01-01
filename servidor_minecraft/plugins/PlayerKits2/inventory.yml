@@ -2,16 +2,14 @@ inventories:
   main_inventory:
     slots: 54
     title: '&4&lKits'
-    0;1;7;8;9;17;36;44;45;46;52;53:
-      item:
-        id: BLACK_STAINED_GLASS_PANE
-        name: ' '
     '49':
       item:
         id: DIAMOND_BLOCK
         name: '&ePremium Kits'
       open_inventory: premium_kits_inventory
     '20':
+      type: 'kit: Troll'
+    '11':
       type: 'kit: Inicio'
     '21':
       type: 'kit: Construccion Legacy'

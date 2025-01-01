@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: true
 timestamps:
-  lastteleport: 1735624335569
+  lastteleport: 1735709035469
   lastheal: 0
   mute: 0
   jail: 0
@@ -20,7 +20,7 @@ timestamps:
   login: 1735706914332
   kits:
     color: 1735504439643
-money: '76013.0'
+money: '66013.0'
 logoutlocation:
   world: e5a7d056-1358-4ae4-b5e4-7f55790e3269
   world-name: Lobby
@@ -31,10 +31,10 @@ logoutlocation:
   pitch: 6.211427688598633
 last-account-name: Frntts
 lastlocation:
-  world: d31d1b94-8543-48cb-afb7-7993b4d2655f
-  world-name: world
-  x: -16.690432589074106
-  y: 150.7516196386133
-  z: 15.963152523486935
-  yaw: -99.77590942382812
-  pitch: 11.043127059936523
+  world: e5a7d056-1358-4ae4-b5e4-7f55790e3269
+  world-name: Lobby
+  x: 383.37327450445196
+  y: 8.0
+  z: 518.4623803324996
+  yaw: -178.3905029296875
+  pitch: 4.399526596069336

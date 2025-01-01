@@ -4,3 +4,7 @@ kits:
     cooldown: 0
     one_time: false
     bought: true
+  Diamantes:
+    cooldown: 0
+    one_time: false
+    bought: true
