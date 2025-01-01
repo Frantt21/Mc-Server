@@ -21,6 +21,8 @@ inventories:
       type: 'kit: Diamantes +'
     '24':
       type: 'kit: Curador I'
+    '29':
+      type: 'kit: Curador II'
   premium_kits_inventory:
     slots: 54
     title: '&e&lPremium Kits'
