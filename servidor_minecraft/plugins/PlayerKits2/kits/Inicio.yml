@@ -48,7 +48,7 @@ display:
     name: '&f&lKit &7&l%kit_name%'
     amount: 1
     lore:
-    - '&fCon este kit podras empezar.'
+    - '&fCon este kit podras empezar'
     - '&ftu aventura.'
     - ''
     - '&e¡Clic derecho para ver el kit!'

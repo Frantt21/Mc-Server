@@ -581,3 +581,24 @@
 [05:25:39] [Server thread/INFO]: Frntts issued server command: /kits
 [05:26:17] [Server thread/INFO]: Frntts issued server command: /kits
 [05:27:05] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:27:38] [Server thread/INFO]: Frntts issued server command: /kits
+[05:29:12] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[05:29:14] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[05:29:16] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[05:29:17] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[05:29:20] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[05:29:23] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[05:29:27] [Server thread/INFO]: Frntts issued server command: /enchant power 3
+[05:29:41] [Server thread/INFO]: Frntts issued server command: /enchant sharpness 3
+[05:29:56] [Server thread/INFO]: Frntts issued server command: /enchant mending
+[05:30:13] [Server thread/INFO]: Frntts issued server command: /enchant protection 3
+[05:30:15] [Server thread/INFO]: Frntts issued server command: /enchant protection 3
+[05:30:16] [Server thread/INFO]: Frntts issued server command: /enchant protection 3
+[05:30:18] [Server thread/INFO]: Frntts issued server command: /enchant protection 3
+[05:30:26] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[05:31:23] [Server thread/INFO]: Frntts issued server command: /kitcreate Flechero
+[05:31:37] [Server thread/INFO]: Frntts issued server command: /playerkits create Flechero configurable
+[05:33:39] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:33:42] [Server thread/INFO]: Frntts issued server command: /kits
+[05:35:07] [Server thread/INFO]: Frntts issued server command: /playerkits reload
+[05:35:08] [Server thread/INFO]: Frntts issued server command: /kits

@@ -1,0 +1,166 @@
+cooldown: 3600
+one_time: false
+auto_armor: false
+permission_required: false
+save_original_items: false
+items:
+  '3':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '4':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '5':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '6':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '7':
+    id: TOTEM_OF_UNDYING
+    amount: 1
+  '8':
+    id: GOLDEN_APPLE
+    amount: 64
+  '9':
+    id: SPLASH_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: SPEED
+  '10':
+    id: OBSIDIAN
+    amount: 64
+  '11':
+    id: ENDER_CHEST
+    amount: 5
+  '12':
+    id: ENDER_PEARL
+    amount: 16
+  '13':
+    id: ENDER_PEARL
+    amount: 16
+  '14':
+    id: ENDER_PEARL
+    amount: 16
+  '15':
+    id: ENDER_PEARL
+    amount: 16
+  '16':
+    id: ENDER_PEARL
+    amount: 16
+  '17':
+    id: GOLDEN_APPLE
+    amount: 64
+  '18':
+    id: SPLASH_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: SPEED
+  '19':
+    id: WATER_BUCKET
+    amount: 1
+  '20':
+    id: ANVIL
+    amount: 1
+  '21':
+    id: LINGERING_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: INSTANT_HEAL
+  '22':
+    id: LINGERING_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: INSTANT_HEAL
+  '23':
+    id: LINGERING_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: INSTANT_HEAL
+  '24':
+    id: LINGERING_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: INSTANT_HEAL
+  '25':
+    id: LINGERING_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: INSTANT_HEAL
+  '26':
+    id: GOLDEN_CARROT
+    amount: 64
+  '27':
+    id: SPLASH_POTION
+    amount: 1
+    potion_data:
+      extended: false
+      upgraded: true
+      type: SPEED
+  '28':
+    id: FLINT_AND_STEEL
+    amount: 1
+  '29':
+    id: OAK_PLANKS
+    amount: 64
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false
+display:
+  default:
+    id: TOTEM_OF_UNDYING
+    name: '&f&lKit &6&l%kit_name%'
+    amount: 1
+    lore:
+    - '&f¿Que te siente ser inmortal?'
+    - ''
+    - '&fPrecio: &a$20000'
+    - ''
+    - '&e¡Clic derecho para ver el kit!'
+    - '&a¡Clic izquierdo para equipar!'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+requirements:
+  one_time_requirements: true
+  price: 20000
+  message:
+  - '&fNecesitas $20000'
+  - '&8Balance: &7$%vault_eco_balance% %status_symbol_price%'

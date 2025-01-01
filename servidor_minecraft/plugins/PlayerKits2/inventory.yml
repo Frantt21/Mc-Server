@@ -22,7 +22,9 @@ inventories:
     '29':
       type: 'kit: Curador II'
     '30':
-      type: 'kit: Importal'
+      type: 'kit: Inmortal'
+    '12':
+      type: 'kit: Flechero'
   premium_kits_inventory:
     slots: 54
     title: '&e&lPremium Kits'
