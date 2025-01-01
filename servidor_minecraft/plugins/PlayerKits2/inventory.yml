@@ -29,6 +29,8 @@ inventories:
       type: 'kit: Cocinero'
     '14':
       type: 'kit: Volador'
+    '31':
+      type: 'kit: Dios'
   premium_kits_inventory:
     slots: 54
     title: '&e&lPremium Kits'
