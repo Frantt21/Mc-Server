@@ -623,3 +623,15 @@
 [05:54:16] [Server thread/INFO]: Frntts issued server command: /playerkits reload
 [05:54:17] [Server thread/INFO]: Frntts issued server command: /kits
 [05:57:49] [Server thread/INFO]: Frntts has completed the challenge [Cover Me in Debris]
+[07:16:38] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[07:16:40] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[07:16:42] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[07:16:44] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[07:16:46] [Server thread/INFO]: Frntts issued server command: /enchant unbreaking 3
+[07:16:57] [Server thread/INFO]: Frntts issued server command: /enchant protection 4
+[07:16:59] [Server thread/INFO]: Frntts issued server command: /enchant protection 4
+[07:17:01] [Server thread/INFO]: Frntts issued server command: /enchant protection 4
+[07:17:03] [Server thread/INFO]: Frntts issued server command: /enchant protection 4
+[07:17:12] [Server thread/INFO]: Frntts issued server command: /enchant sharpness 4
+[07:17:29] [Server thread/INFO]: Frntts issued server command: /enchant featherfall 4
+[07:18:03] [Server thread/INFO]: Frntts issued server command: /enchant soulspeed 3
