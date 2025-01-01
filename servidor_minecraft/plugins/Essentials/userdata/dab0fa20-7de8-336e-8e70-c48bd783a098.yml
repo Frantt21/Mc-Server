@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.99.25.130
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -20,7 +20,7 @@ timestamps:
   login: 1735771832588
   kits:
     color: 1735504439643
-money: '66013.0'
+money: '66028.0'
 logoutlocation:
   world: d31d1b94-8543-48cb-afb7-7993b4d2655f
   world-name: world

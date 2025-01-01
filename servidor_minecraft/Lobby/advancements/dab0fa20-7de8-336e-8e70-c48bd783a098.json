@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_candle": {
+    "criteria": {
+      "has_brown_dye": "2025-01-01 23:11:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2024-12-29 22:49:26 +0000"
@@ -326,6 +332,12 @@
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2024-12-31 05:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet_from_white_carpet": {
+    "criteria": {
+      "has_brown_dye": "2025-01-01 23:11:48 +0000"
     },
     "done": true
   },
@@ -830,6 +842,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:zoglin": "2024-12-29 23:09:37 +0000",
+      "minecraft:wither_skeleton": "2025-01-01 23:10:52 +0000",
       "minecraft:zombie": "2024-12-29 23:00:36 +0000"
     },
     "done": false
@@ -861,6 +874,12 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2025-01-01 05:37:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_brown_dye": "2025-01-01 23:11:48 +0000"
     },
     "done": true
   },

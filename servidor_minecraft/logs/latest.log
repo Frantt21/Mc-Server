@@ -540,3 +540,299 @@
 [22:53:16] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
 [22:56:12] [Server thread/INFO]: Frntts issued server command: /playerkits reload
 [22:56:17] [Server thread/INFO]: Frntts issued server command: /kits
+[23:09:11] [Server thread/INFO]: Frntts issued server command: /plugman load AuraSkills-2.2.7
+[23:09:11] [Server thread/WARN]: [AuraSkills] Loaded class com.sk89q.worldguard.bukkit.WorldGuardPlugin from WorldGuard v7.0.8+33cdb4a which is not a depend or softdepend of this plugin.
+[23:09:11] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'plugman' in plugin PlugManX v2.4.1
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleCommand(ServerGamePacketListenerImpl.java:2382) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$18(ServerGamePacketListenerImpl.java:2153) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1359) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:183) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1336) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1329) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1463) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalStateException: New flags cannot be registered at this time
+	at com.sk89q.worldguard.protection.flags.registry.SimpleFlagRegistry.register(SimpleFlagRegistry.java:60) ~[worldguard-bukkit-7.0.8-dist.jar:?]
+	at dev.aurelium.auraskills.bukkit.hooks.WorldGuardFlags.register(WorldGuardFlags.java:43) ~[AuraSkills-2.2.7.jar:?]
+	at dev.aurelium.auraskills.bukkit.AuraSkills.onLoad(AuraSkills.java:277) ~[AuraSkills-2.2.7.jar:?]
+	at com.rylinaux.plugman.pluginmanager.BukkitPluginManager.load(BukkitPluginManager.java:381) ~[PlugManX-2.4.1.jar:?]
+	at com.rylinaux.plugman.command.LoadCommand.execute(LoadCommand.java:114) ~[PlugManX-2.4.1.jar:?]
+	at com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:94) ~[PlugManX-2.4.1.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 17 more
+[23:09:27] [Server thread/INFO]: Frntts issued server command: /plugman load BackpackPlus-1.4.5
+[23:09:27] [Server thread/INFO]: [BackpackPlus] Loading 2 libraries... please wait
+[23:09:27] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.pom
+[23:09:27] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[23:09:27] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.pom
+[23:09:27] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.0-alpha1/slf4j-parent-2.0.0-alpha1.pom
+[23:09:27] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.pom
+[23:09:27] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[23:09:27] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[23:09:27] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[23:09:27] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[23:09:27] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[23:09:27] [Server thread/INFO]: [BackpackPlus] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[23:09:27] [Server thread/INFO]: [BackpackPlus] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[23:09:27] [Server thread/INFO]: [BackpackPlus] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[23:09:27] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.4.5
+[23:09:27] [Server thread/INFO]: [BackpackPlus] [Pack] Resource pack copied to pack folder.
+[23:09:27] [Server thread/INFO]: [BackpackPlus] [Pack] New version found, updating readme...
+[23:09:27] [Server thread/INFO]: [BackpackPlus] [Pack] Readme updated.
+[23:09:27] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[23:09:27] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[23:09:27] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[23:09:27] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[23:09:28] [Craft Scheduler Thread - 6 - BackpackPlus/INFO]: [BackpackPlus] Plugin is up to date.
+[23:09:34] [Server thread/INFO]: Frntts issued server command: /plugman load MythicDungeons-1.4.1
+[23:09:34] [Server thread/INFO]: [MythicDungeons] Enabling MythicDungeons v1.4.1F
+[23:09:34] [Server thread/INFO]: [MythicDungeons] §x§9§7§5§3§f§5[Dungeons] §cWARNING: Memory leak protection isn't available on this Minecraft version!
+[23:09:34] [Server thread/INFO]: [MythicDungeons] §x§9§7§5§3§f§5[Dungeons] §c-- You should be fine, but if there are major memory leaks, submit an issue on the issue tracker and include the Minecraft version of your server!
+[23:09:34] [Server thread/INFO]: [MythicDungeons] [STDOUT] Using default parties! Enabled party support.
+[23:09:34] [Server thread/WARN]: Nag author(s): '[MarcatoSound, Aestrus]' of 'MythicDungeons' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[23:09:34] [Server thread/WARN]: [MythicDungeons] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.6 which is not a depend or softdepend of this plugin.
+[23:09:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: md [1.4.1F]
+[23:09:34] [Server thread/WARN]: [MythicDungeons] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[23:09:34] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 48 ms to scan 1 urls, producing 12 keys and 187 values
+[23:09:34] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 8 keys and 64 values
+[23:09:34] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 5 keys and 35 values
+[23:09:34] [Server thread/INFO]: [MythicDungeons] §d* Loaded §634 §dfunctions.
+[23:09:34] [Server thread/INFO]: [MythicDungeons] §d* Loaded §613 §dtriggers.
+[23:09:34] [Server thread/INFO]: [MythicDungeons] §d* Loaded §68 §dconditions.
+[23:09:34] [Server thread/INFO]: [MythicDungeons] §dGUI menus initialized!
+[23:09:34] [Server thread/INFO]: [MythicDungeons] §dMythic Dungeons v1.4.1F §ainitialized! Happy dungeon-ing!
+[23:09:39] [Server thread/INFO]: Frntts issued server command: /plugman load MythicMobs-5.7.2
+[23:09:39] [Server thread/INFO]: [MythicMobs] Loading 4 libraries... please wait
+[23:09:39] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.pom
+[23:09:39] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.16.0/adventure-bom-4.16.0.pom
+[23:09:39] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.pom
+[23:09:39] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-api/1.3.0/examination-api-1.3.0.pom
+[23:09:39] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/22.0.0/annotations-22.0.0.pom
+[23:09:39] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/examination-string/1.3.0/examination-string-1.3.0.pom
+[23:09:39] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.13.1/adventure-api-4.13.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-bom/4.13.1/adventure-bom-4.13.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.13.1/adventure-key-4.13.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+[23:09:40] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-0/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-2/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-3/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-1/INFO]: Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[23:09:40] [BasicRepositoryConnector-repo.maven.apache.org-1-4/INFO]: Downloading https://repo.maven.apache.org/maven2/net/kyori/option/1.0.0/option-1.0.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loaded library /workspaces/Mc-Server/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[23:09:40] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[23:09:40] [Server thread/INFO]: [MythicMobs] §x§f§3§8§0§1§fM§x§d§4§b§3§0§6y§x§a§5§d§e§0§1t§x§7§1§f§8§1§3h§x§3§f§f§e§3§7i§x§1§8§e§d§6§8c§f §x§0§4§9§a§c§cE§x§1§a§6§5§e§fn§x§4§1§3§5§f§ea§x§7§4§1§2§f§7b§x§a§8§0§1§d§cl§x§d§5§0§7§b§1e§x§f§4§2§1§7§dd§x§f§e§4§c§4§9![0m
+[23:09:40] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.7.2-${CI_COMMIT_SHORT_SHA}
+[23:09:40] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.19.0)...[0m
+[23:09:40] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality[0m
+[23:09:40] [Server thread/WARN]: [MythicMobs] §6--====|||| §c§lMythic §6||||====--[0m[0m
+[23:09:40] [Server thread/WARN]: [MythicMobs] This version of Mythic is not fully compatible with your version of Bukkit.[0m[0m
+[23:09:40] [Server thread/WARN]: [MythicMobs] Some features may be limited or disabled until you use a compatible version.[0m[0m
+[23:09:40] [Server thread/WARN]: [MythicMobs] Server NMS Version Detected - v1_19_R1[0m[0m
+[23:09:40] [Server thread/WARN]: [MythicMobs] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.6 which is not a depend or softdepend of this plugin.
+[23:09:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mythic [5.0.0]
+[23:09:41] [Server thread/INFO]: [MythicMobs] Mythic PlaceholderAPI Support has been enabled![0m
+[23:09:41] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled![0m
+[23:09:41] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled![0m
+[23:09:41] [Server thread/WARN]: [MythicMobs] Loaded class com.sk89q.worldguard.WorldGuard from WorldGuard v7.0.8+33cdb4a which is not a depend or softdepend of this plugin.
+[23:09:41] [Server thread/INFO]: [MythicMobs] Mythic WorldGuard Support has been enabled![0m
+[23:09:41] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/Mc-Server/servidor_minecraft/plugins/MythicMobs/data
+[23:09:41] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/Mc-Server/servidor_minecraft/plugins/MythicMobs/data/worlds
+[23:09:42] [Server thread/INFO]: [MythicMobs] Loading Packs...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Loading Items...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] File ExampleItems.yml not found! Creating a new one...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Loading Item Groups...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Loading Skills...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] File ExampleSkills.yml not found! Creating a new one...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] File VanillaMobs.yml not found! Creating a new one...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] File ExampleMobs.yml not found! Creating a new one...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] File ExampleDropTables.yml not found! Creating a new one...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] File ExampleRandomSpawns.yml not found! Creating a new one...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Spawners folder not found! Creating...[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 8 mobs.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 vanilla mob overrides.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob stacks.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 skills.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 random spawns.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 3 mythic items.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 2 drop tables.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓[37m Loaded 0 mob spawners.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics[0m
+[23:09:43] [Server thread/INFO]: [MythicMobs] [32m✓ MythicMobs v5.7.2 ( build ${CI_COMMIT_SHORT_SHA} ) has been successfully loaded![0m[0m
+[23:09:43] [Server thread/ERROR]: [MythicMobs] [31m[SCHEDULER] Exception thrown whilst executing task[37m
+[23:09:43] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.volatilecode.handlers.VolatileItemHandler.addNBTData(org.bukkit.inventory.ItemStack, String, io.lumine.mythic.core.utils.jnbt.Tag)" because "io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.handler" is null
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.customData(NbtBukkitItemStack.java:265)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.modelData(NbtBukkitItemStack.java:134)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.modelData(NbtBukkitItemStack.java:34)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.lambda$loadConfigSettings$1(ConfigExecutor.java:662)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1491)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:446)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1415)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1188)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[23:09:43] [Server thread/ERROR]: [MythicMobs] [31m[SCHEDULER] Exception thrown whilst executing task[37m
+[23:09:43] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.volatilecode.handlers.VolatileItemHandler.addNBTData(org.bukkit.inventory.ItemStack, String, io.lumine.mythic.core.utils.jnbt.Tag)" because "io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.handler" is null
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.customData(NbtBukkitItemStack.java:265)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.modelData(NbtBukkitItemStack.java:134)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.modelData(NbtBukkitItemStack.java:34)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.config.ConfigExecutor.lambda$loadConfigSettings$1(ConfigExecutor.java:662)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1491)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:446)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1415)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1188)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[23:09:43] [Server thread/WARN]: [MythicMobs] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[23:09:43] [Server thread/WARN]: [MythicMobs] Loaded class com.sk89q.worldedit.bukkit.BukkitAdapter from WorldEdit v7.2.14+6360-094b734 which is not a depend or softdepend of this plugin.
+[23:09:43] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.volatilecode.handlers.VolatileItemHandler.getNBTData(org.bukkit.inventory.ItemStack)" because "io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.handler" is null
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.editTag(NbtBukkitItemStack.java:50)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.name(NbtBukkitItemStack.java:65)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.name(NbtBukkitItemStack.java:34)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.generateItemStack(MythicItem.java:701)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.generateItemStack(MythicItem.java:646)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.buildItemCache(MythicItem.java:498)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.lambda$loadItem$0(MythicItem.java:450)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.clock.MythicClock.lambda$runPostReload$1(MythicClock.java:144)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.clock.MythicClock.runPostReload(MythicClock.java:141)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.MythicBukkit.lambda$enable$1(MythicBukkit.java:225)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1491)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:446)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1415)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1188)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[23:09:43] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.volatilecode.handlers.VolatileItemHandler.getNBTData(org.bukkit.inventory.ItemStack)" because "io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.handler" is null
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.editTag(NbtBukkitItemStack.java:50)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.name(NbtBukkitItemStack.java:65)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.name(NbtBukkitItemStack.java:34)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.generateItemStack(MythicItem.java:701)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.generateItemStack(MythicItem.java:646)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.buildItemCache(MythicItem.java:498)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.lambda$loadItem$0(MythicItem.java:450)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.clock.MythicClock.lambda$runPostReload$1(MythicClock.java:144)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.clock.MythicClock.runPostReload(MythicClock.java:141)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.MythicBukkit.lambda$enable$1(MythicBukkit.java:225)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1491)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:446)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1415)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1188)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[23:09:43] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.volatilecode.handlers.VolatileItemHandler.getNBTData(org.bukkit.inventory.ItemStack)" because "io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.handler" is null
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.editTag(NbtBukkitItemStack.java:50)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.name(NbtBukkitItemStack.java:65)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.adapters.item.NbtBukkitItemStack.name(NbtBukkitItemStack.java:34)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.generateItemStack(MythicItem.java:701)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.generateItemStack(MythicItem.java:646)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.buildItemCache(MythicItem.java:498)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.items.MythicItem.lambda$loadItem$0(MythicItem.java:450)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.clock.MythicClock.lambda$runPostReload$1(MythicClock.java:144)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.clock.MythicClock.runPostReload(MythicClock.java:141)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.MythicBukkit.lambda$enable$1(MythicBukkit.java:225)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[23:09:43] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[23:09:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1491)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:446)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1415)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1188)
+[23:09:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[23:09:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[23:10:06] [Server thread/INFO]: Frntts issued server command: /mythicdungeons:stuck
+[23:10:14] [Server thread/INFO]: Frntts issued server command: /mythicmobs
+[23:10:21] [Server thread/INFO]: Frntts issued server command: /mm mobs
+[23:10:25] [Server thread/INFO]: Frntts issued server command: /mm m list
+[23:10:37] [Server thread/INFO]: Frntts issued server command: /mm m spawn SkeletalKnight
+[23:10:52] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/1959, uuid='063885f0-366d-4baf-a0c6-f86e24d58b9b', l='ServerLevel[world]', x=-56.58, y=151.00, z=3.33, cpos=[-4, 0], tl=304, v=true] died: Skeletal Knight was slain by Frntts
+[23:11:20] [Server thread/INFO]: Frntts issued server command: /bbc
+[23:11:24] [Server thread/INFO]: Frntts issued server command: /backpack
+[23:11:29] [Server thread/INFO]: Frntts issued server command: /backpack crafting
+[23:11:48] [Server thread/INFO]: Frntts issued server command: /backpack give 1 Frntts
+[23:13:06] [Server thread/INFO]: Frntts issued server command: /backpack give 3 Frntts
+[23:13:51] [Server thread/INFO]: Frntts issued server command: /backpack give 2 Frntts
+[23:17:00] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/2458, uuid='ac9e25c7-b88f-48f4-8758-81c1547fdb93', l='ServerLevel[world]', x=-138.50, y=119.00, z=32.50, cpos=[-9, 2], tl=442, v=true] died: Skeletal Knight suffocated in a wall
