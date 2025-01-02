@@ -32,10 +32,10 @@ npc:
         updateSkins: false
       inventory:
         '0':
-          type: BOW
+          type_namespace: minecraft
+          type_key: bow
           amount: 1
           durability: 0
-          mdata: 0
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -49,7 +49,9 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: skintrait,spawned,mounttrait,location,age,inventory,commandtrait,owner,scoreboardtrait,type
+        experienceCost: -1.0
+        hideErrorMessages: false
+    traitnames: commandtrait,mounttrait,inventory,location,age,scoreboardtrait,spawned,type,owner,skintrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -82,7 +84,7 @@ npc:
         signature: NFXPc0EFzCd83yWBAhvGwsTolPtuArRbofyWOPUi3b/Ztw1z+ti7qhtEVa96NsOhHGuAmOz5sgzlGT3dMFPmsHwglzDlnaD6GqNuPS/Pors5gFD3FNtkk9NaBJFH91kC+gToW3i7PA4oY4RMfRVcUO2oGCLM3WsVeo52ZKav2tyY4nbJ/tGEouZlUS7sNNjsxYogw8GNnr10uxLtwlJK5MJCFdy0gWpt///s/GWky8J0pXPCXRsGgw+ufdSGhg4igpJKmbw5Zg/u9IjUWU8umErkmpd4Q/PU4eRkdwPQOd4UWV4mQcX4i4ssY2Ek/ahXuiqC2oI9HtXMX5AgM3wZ/l41L9CXFGthwy27196zuz6aeK8wTVqTHF/bcMht9NAml2GFubPAKjGbXa7hJ7yyDMYPhudlm9wk6t9Xz4yxtVGVN3nRExj0Scpvo29kfsuRbE4XAjDhkop7+bkVkbZdiZizf/G+muOrS+Ted8N14Qr+38bFBSwwn/Y8NvATS7i19oIqsWsLpcxFQJh1zo8mA9P5vhs+xi2vFGEWgGMh4k4RFPhB8yP2rVIOdE0bPTxy7d4RKBoG6L4NE/pPAEufwM08yGYu+Pu6KTWxbyxV77x0SNZF3b7PAz5XPRACc9ouc5wi0vhs31VvaSdiU61C3fJxbFPz3iJJe5xhg5hd0Ic=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNTg1MzUyNTE5NCwKICAicHJvZmlsZUlkIiA6ICJhNzliMGE1OWMwOTI0ZWNhOWI4ZDFkZDcwMTA1YmIzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aWVuZGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkZGRiNDFkY2FmZWY2MTZlOTU5YzI4MTc4MDhlMGJlNzQxYzg5ZmZiZmVkMzkxMzRhMTNlNzViODExODYzZCIKICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: skintrait,spawned,mounttrait,location,age,inventory,owner,scoreboardtrait,type
+    traitnames: mounttrait,inventory,location,age,scoreboardtrait,spawned,type,skintrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
