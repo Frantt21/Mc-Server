@@ -1,0 +1,68 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: bda5de17-b195-4d54-99d1-93784e641be7
+      cached-skin-uuid-name: warps
+    name: warps
+    uuid: ec8e8819-857e-4f89-9f88-9612b2ae82ed
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -163.50961
+        world: Lobby
+        x: '175.5'
+        y: '55.0'
+        z: '381.5'
+        yaw: '-163.5096'
+        pitch: '0.0703'
+      age:
+        age: 0
+        locked: true
+      owner:
+        uuid: dab0fa20-7de8-336e-8e70-c48bd783a098
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: OeDZrAOSeA8yUOys58C7N0OyGC3vDS5IoRZcQkcIOsBmMMT2YviWPEfNKauZc9/1fMfepp+OnJEQK1acfghSCLRbJOtw+j9ZqWR5MdquIMDGDMwDG4cOk5hnD9Jqy30JqEwj95c+K+xL0TxXN/erRJZRrt9Wm++yqPpELHbV3jvqAXVmS7erppWdBcA7LNreUiE4SBZ0Ulvd52N3PxIrcT4aax7z96TtHGIv5vikVM2ERz+NS0bC73KsCLHdMlZmQztJo6HGuVlAMIPtaRzJ2PXvA2PaPKpRcnUnq4HaYYzxt4k/hU5MjKqZDFzQ98FbW2Ya+Upbw4tIlCN7v6C0T9sM85AgRuWFVRPezYmWyikd4APYKalZ5cq6Xsc/kLkd/Za3fdO4f7We7UsLYrlpcemXBpQoNWFqi8vB3kLdj1Z0RcSe/0LbStrSNPRW+9l19y8x1hpSBrsYMSWd7A9hxTa7Hw2ltm3EJxxjAn1aLgf/ine3HAp/vPHbohPMa2fWUCbP2v4fZ+YepNtyWjzRTnHoXx2eQKiyva14g6EGfa1WF/r7jsA6dgPEaE2GRPuvfhj6SVeOeAC7cSBmVKdwuYOsbEANMI48ItfkYtmjOehhIiyeGcWCENT5XhFrbM6DSypQInJ4zC/Csqy5cNFMypIPjvSvYk408VC1jWpb1Vk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNTc5NjM5MTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZGE1ZGUxN2IxOTU0ZDU0OTlkMTkzNzg0ZTY0MWJlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3YXJwcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTY0ODE0NmUyODYyZmJiN2VmN2MyNWRjN2E2YTQ2YjJiOWY5OWRkMTdjOWQ2MzJkN2Q3YzNmOGJkNzNmNTNhIgogICAgfQogIH0KfQ==
+        updateSkins: false
+    traitnames: mounttrait,spawned,scoreboardtrait,location,inventory,age,owner,type,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid: 3314ad5c-083e-430c-badd-58152e418f13
+      cached-skin-uuid-name: shop
+    name: shop
+    uuid: 765638b7-6701-4332-adff-8b4cde75dc05
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 163.22772
+        world: Lobby
+        x: '179.5'
+        y: '55.0'
+        z: '381.5'
+        yaw: '163.2277'
+        pitch: '1.4441'
+      age:
+        age: 0
+        locked: true
+      owner:
+        uuid: dab0fa20-7de8-336e-8e70-c48bd783a098
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ho37icL5+IvaaNM1fp6u4HMKu1hqoJb7vQrf7qFGxXC0ygtFMzJfIf1piyaoQOpwhdOQ4C3tGn/OClFfgRkV7CMra9GKr8W+fE+xqktrx2l26VFHEjXQ3XcsDjVWXk+7pXNLzXazD1xTe4AL05BfatD0adXh3XMz3z+WVK8hG2WgQtw5xfyQSzZKFvHORNddlJGHcSxSZDZI/2H6DXw9rMRbt6Tw1cfDtFHAnSA3IoiofOCsNC0atcXZ9B2o1sHOa2ZHjrn6xXZOeC2PMmUmQbOKr8O8pF/gtnOujTehWCP8C2H+I03C72nRSgHJ6z++3tdlPn+t4bL9rH1tsF5lB7lh8+aQMAjuavoqXZukgn4CMbPoILZK6x/PRcc/z1+ZLh+60eR7AMmQqcaXsgyNa7ZPq7jviq6EDY83hPLj7HSgOQ2rCPxcIwcIAZt64griSOQ4Dc4d3CCyKdTbZ3zgb6JO7a2HAqoRT7WIXuDkQJXcFbvPuUVFF0NTadvX4vlHMsGMT6vrskBDfWm2kLyx53yh48MbcFIaa1OoPwoivQrUmJWRqE8Q6U1s2ST8Gd/983aNKrkD3xmQxrvRNd+3AuhQ3Ynvqsm/hF0yAesb0K0IC4CoQI3CUVq3G6hhtRKRZwR1VpXG0NOrGE3S/+izBFmltH5yF6PBtkoVTJmekwA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNTc5NjQxMDQzMSwKICAicHJvZmlsZUlkIiA6ICIzMzE0YWQ1YzA4M2U0MzBjYmFkZDU4MTUyZTQxOGYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaG9wIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IwMzZiNjUwNDM5NTZkYjgxY2U4ZGY4NTI4ODE4YTkzNmZhYWQyMmQwODAwMWY5MGUzYjlhNGRiOTdjMzc2NDUiCiAgICB9CiAgfQp9
+        updateSkins: false
+    traitnames: mounttrait,spawned,scoreboardtrait,location,inventory,age,owner,type,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

@@ -124,9 +124,16 @@
       "minecraft:sparse_jungle": "2024-12-30 03:32:32 +0000",
       "minecraft:grove": "2024-12-30 00:07:36 +0000",
       "minecraft:forest": "2024-12-30 00:07:32 +0000",
-      "minecraft:jungle": "2024-12-29 20:48:35 +0000"
+      "minecraft:jungle": "2024-12-29 20:48:35 +0000",
+      "minecraft:plains": "2025-01-02 03:35:30 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-01-02 04:41:27 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
@@ -281,6 +288,12 @@
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-30 03:32:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-01-02 04:30:43 +0000"
     },
     "done": true
   },
