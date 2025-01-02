@@ -557,3 +557,134 @@ org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register tas
 [22:17:28] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
 [22:17:36] [Server thread/INFO]: [Essentials] Created a User for tienda (765638b7-6701-2332-adff-8b4cde75dc05) for non Bukkit type: net.citizensnpcs.nms.v1_19_R1.entity.EntityHumanNPC$PlayerNPC
 [22:17:47] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:20:15] [Server thread/INFO]: [CForms] Disabling CrossplatForms v1.5.0
+[22:20:15] [Server thread/INFO]: [CForms] Enabling CrossplatForms v1.5.0
+[22:20:15] [Server thread/INFO]: [CForms] Successfully registered Brigadier mappings
+[22:20:15] [Server thread/INFO]: [CForms] Version: 1.5.0, Branch: main, Build: 41, Commit: c619f16
+[22:20:15] [Server thread/WARN]: [CForms] Floodgate is recommended and less likely to break with new updates!
+[22:20:16] [Server thread/INFO]: [CForms] Took 401ms to boot CrossplatForms.
+[22:20:16] [Server thread/INFO]: [PlugMan] CrossplatForms has been reloaded.
+[22:20:18] [Geyser player thread-5-2/WARN]: [Geyser-Spigot] Error while processing form response!
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.validate(CraftScheduler.java:552) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:227) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:212) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:176) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTask(CraftScheduler.java:145) ~[paper-1.19.jar:git-Paper-81]
+	at dev.kejona.crossplatforms.spigot.handler.SpigotHandler.executeSafely(SpigotHandler.java:169) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.BedrockForm.executeHandler(BedrockForm.java:53) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.BedrockForm.handleIncorrect(BedrockForm.java:73) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.simple.SimpleBedrockForm.lambda$send$1(SimpleBedrockForm.java:61) ~[CrossplatForms-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormImpl$Builder.lambda$setResponseHandler$1(FormImpl.java:239) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormImpl.callResultHandler(FormImpl.java:67) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormDefinition.callResponseHandler(FormDefinition.java:73) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormDefinition.handleFormResponse(FormDefinition.java:61) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.cache.FormCache.handleResponse(FormCache.java:105) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.network.UpstreamPacketHandler.lambda$handle$0(UpstreamPacketHandler.java:264) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.GeyserSession.executeRunnable(GeyserSession.java:1274) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.GeyserSession.lambda$executeInEventLoop$6(GeyserSession.java:1241) ~[Geyser-Spigot.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:20:19] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:21:04] [Server thread/INFO]: [CForms] Disabling CrossplatForms v1.5.0
+[22:21:05] [Server thread/INFO]: [CForms] Enabling CrossplatForms v1.5.0
+[22:21:05] [Server thread/INFO]: [CForms] Successfully registered Brigadier mappings
+[22:21:05] [Server thread/INFO]: [CForms] Version: 1.5.0, Branch: main, Build: 41, Commit: c619f16
+[22:21:05] [Server thread/WARN]: [CForms] Floodgate is recommended and less likely to break with new updates!
+[22:21:05] [Server thread/INFO]: [CForms] Took 464ms to boot CrossplatForms.
+[22:21:05] [Server thread/INFO]: [PlugMan] CrossplatForms has been reloaded.
+[22:21:07] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:21:14] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:21:21] [Server thread/INFO]: [CForms] Disabling CrossplatForms v1.5.0
+[22:21:21] [Server thread/INFO]: [CForms] Enabling CrossplatForms v1.5.0
+[22:21:21] [Server thread/INFO]: [CForms] Successfully registered Brigadier mappings
+[22:21:21] [Server thread/INFO]: [CForms] Version: 1.5.0, Branch: main, Build: 41, Commit: c619f16
+[22:21:21] [Server thread/WARN]: [CForms] Floodgate is recommended and less likely to break with new updates!
+[22:21:22] [Server thread/INFO]: [CForms] Took 360ms to boot CrossplatForms.
+[22:21:22] [Server thread/INFO]: [PlugMan] CrossplatForms has been reloaded.
+[22:21:24] [Geyser player thread-5-2/WARN]: [Geyser-Spigot] Error while processing form response!
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.validate(CraftScheduler.java:552) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:227) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:212) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:176) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTask(CraftScheduler.java:145) ~[paper-1.19.jar:git-Paper-81]
+	at dev.kejona.crossplatforms.spigot.handler.SpigotHandler.executeSafely(SpigotHandler.java:169) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.BedrockForm.executeHandler(BedrockForm.java:53) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.BedrockForm.handleIncorrect(BedrockForm.java:73) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.simple.SimpleBedrockForm.lambda$send$1(SimpleBedrockForm.java:61) ~[CrossplatForms-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormImpl$Builder.lambda$setResponseHandler$1(FormImpl.java:239) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormImpl.callResultHandler(FormImpl.java:67) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormDefinition.callResponseHandler(FormDefinition.java:73) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormDefinition.handleFormResponse(FormDefinition.java:61) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.cache.FormCache.handleResponse(FormCache.java:105) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.network.UpstreamPacketHandler.lambda$handle$0(UpstreamPacketHandler.java:264) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.GeyserSession.executeRunnable(GeyserSession.java:1274) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.GeyserSession.lambda$executeInEventLoop$6(GeyserSession.java:1241) ~[Geyser-Spigot.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:21:24] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:21:40] [Server thread/INFO]: [CForms] Disabling CrossplatForms v1.5.0
+[22:21:40] [Server thread/INFO]: [CForms] Enabling CrossplatForms v1.5.0
+[22:21:40] [Server thread/INFO]: [CForms] Successfully registered Brigadier mappings
+[22:21:40] [Server thread/INFO]: [CForms] Version: 1.5.0, Branch: main, Build: 41, Commit: c619f16
+[22:21:40] [Server thread/WARN]: [CForms] Floodgate is recommended and less likely to break with new updates!
+[22:21:41] [Server thread/INFO]: [CForms] Took 405ms to boot CrossplatForms.
+[22:21:41] [Server thread/INFO]: [PlugMan] CrossplatForms has been reloaded.
+[22:21:43] [Geyser player thread-5-2/WARN]: [Geyser-Spigot] Error while processing form response!
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.validate(CraftScheduler.java:552) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:227) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:212) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:176) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.runTask(CraftScheduler.java:145) ~[paper-1.19.jar:git-Paper-81]
+	at dev.kejona.crossplatforms.spigot.handler.SpigotHandler.executeSafely(SpigotHandler.java:169) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.BedrockForm.executeHandler(BedrockForm.java:53) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.BedrockForm.handleIncorrect(BedrockForm.java:73) ~[CrossplatForms-Spigot.jar:?]
+	at dev.kejona.crossplatforms.interfacing.bedrock.simple.SimpleBedrockForm.lambda$send$1(SimpleBedrockForm.java:61) ~[CrossplatForms-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormImpl$Builder.lambda$setResponseHandler$1(FormImpl.java:239) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormImpl.callResultHandler(FormImpl.java:67) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormDefinition.callResponseHandler(FormDefinition.java:73) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.cumulus.form.impl.FormDefinition.handleFormResponse(FormDefinition.java:61) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.cache.FormCache.handleResponse(FormCache.java:105) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.network.UpstreamPacketHandler.lambda$handle$0(UpstreamPacketHandler.java:264) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.GeyserSession.executeRunnable(GeyserSession.java:1274) ~[Geyser-Spigot.jar:?]
+	at org.geysermc.geyser.session.GeyserSession.lambda$executeInEventLoop$6(GeyserSession.java:1241) ~[Geyser-Spigot.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54) ~[netty-transport-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.77.Final.jar:4.1.77.Final]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22:21:43] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:21:56] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:23:13] [localSession-7-3/INFO]: [Geyser-Spigot] Frantt214133 has disconnected from the Java server because of Bedrock client disconnected
+[22:23:13] [Server thread/INFO]: Frantt214133 lost connection: Disconnected
+[22:23:13] [Server thread/INFO]: Frantt214133 left the game
+[22:23:51] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Frantt214133
+[22:23:51] [localSession-7-4/INFO]: [Geyser-Spigot] Frantt214133 (logged in as: Frantt214133) has connected to the Java server
+[22:23:51] [Protocol Worker #1 - FastLogin - [recv: ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], START[class=PacketLoginInStart, id=0], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/100.82.5.57:0]
+[22:23:51] [User Authenticator #3/INFO]: UUID of player Frantt214133 is a523ec09-24d5-3e24-961a-a4dc95e412c8
+[22:23:51] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Frantt214133's group (dev) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[22:23:51] [Server thread/INFO]: Frantt214133 joined the game
+[22:23:51] [Server thread/INFO]: Frantt214133[/100.82.5.57:0] logged in with entity id 326904 at ([Lobby]176.11662, 55.26952, 377.57938)
+[22:23:51] [Server thread/INFO]: [FastLogin] No on-going login session for player: CraftPlayer{name=Frantt214133} with ID 100.82.5.57:0. 
+[22:23:51] [Server thread/INFO]: [FastLogin] Setups using Minecraft proxies will start delayed when the command from the proxy is received
+[22:24:11] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] Frantt214133 logged in 100.82.5.57
+[22:24:13] [Server thread/INFO]: [Essentials] Created a User for warp (ec8e8819-857e-2f89-9f88-9612b2ae82ed) for non Bukkit type: net.citizensnpcs.nms.v1_19_R1.entity.EntityHumanNPC$PlayerNPC
+[22:24:17] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:24:31] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:24:35] [Server thread/INFO]: Frantt214133 issued server command: /warp survival
+[22:24:52] [Server thread/INFO]: Frantt214133 issued server command: /spawn
+[22:25:13] [Server thread/INFO]: Frantt214133 issued server command: /forms open servers
+[22:25:32] [localSession-7-4/INFO]: [Geyser-Spigot] Frantt214133 has disconnected from the Java server because of Bedrock client timed out
+[22:25:32] [Server thread/INFO]: Frantt214133 lost connection: Disconnected
+[22:25:32] [Server thread/INFO]: Frantt214133 left the game
