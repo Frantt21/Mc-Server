@@ -15,9 +15,9 @@ forms:
     content: "Haz clic para ir a un lugar!"
     buttons:
       - text: "Survival"
-        image: "https://www.digminecraft.com/block_recipes/images/cyan_concrete.png"
+        image: "https://uk.minecraft.wiki/w/%D0%97%D0%B0%D0%BA%D0%BE%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9_%D1%81%D0%BA%D0%B0%D1%80%D0%B1#/media/%D0%A4%D0%B0%D0%B9%D0%BB:Chest_(S)_JE2.png"
         actions:
-          - message: que sera.
+          - message: Viajando...
           - commands:
               - "player; warp survival"
 
@@ -34,7 +34,7 @@ forms:
       - text: "Spawn"
         actions:
           - commands:
-              - "console; tp %player_name% 0 80 0"
+              - "player; spawn"
 
   minigames:
     type: simple_form

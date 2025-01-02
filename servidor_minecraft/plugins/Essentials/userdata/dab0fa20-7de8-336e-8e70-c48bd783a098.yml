@@ -16,19 +16,19 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1735796678398
-  login: 1735796672790
+  logout: 1735852992219
+  login: 1735852852833
   kits:
     color: 1735504439643
 money: '66032.0'
 logoutlocation:
   world: e5a7d056-1358-4ae4-b5e4-7f55790e3269
   world-name: Lobby
-  x: 178.82536536364023
-  y: 55.0
-  z: 380.47262208944534
-  yaw: -132.58509826660156
-  pitch: 48.44578170776367
+  x: 177.76962999515789
+  y: 57.86835973890565
+  z: 376.2613611912396
+  yaw: -9.328643798828125
+  pitch: 7.036149024963379
 last-account-name: Frntts
 lastlocation:
   world: d31d1b94-8543-48cb-afb7-7993b4d2655f

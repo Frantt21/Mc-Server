@@ -4,9 +4,10 @@ last-created-npc-id: 1
 npc:
   '1':
     metadata:
-      cached-skin-uuid: bda5de17-b195-4d54-99d1-93784e641be7
-      cached-skin-uuid-name: warps
-    name: warps
+      cached-skin-uuid: 532f299c-d932-4c50-9842-a3149782f412
+      cached-skin-uuid-name: warp
+      nameplate-visible: 'false'
+    name: warp
     uuid: ec8e8819-857e-4f89-9f88-9612b2ae82ed
     traits:
       spawned: true
@@ -26,19 +27,39 @@ npc:
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
-        signature: OeDZrAOSeA8yUOys58C7N0OyGC3vDS5IoRZcQkcIOsBmMMT2YviWPEfNKauZc9/1fMfepp+OnJEQK1acfghSCLRbJOtw+j9ZqWR5MdquIMDGDMwDG4cOk5hnD9Jqy30JqEwj95c+K+xL0TxXN/erRJZRrt9Wm++yqPpELHbV3jvqAXVmS7erppWdBcA7LNreUiE4SBZ0Ulvd52N3PxIrcT4aax7z96TtHGIv5vikVM2ERz+NS0bC73KsCLHdMlZmQztJo6HGuVlAMIPtaRzJ2PXvA2PaPKpRcnUnq4HaYYzxt4k/hU5MjKqZDFzQ98FbW2Ya+Upbw4tIlCN7v6C0T9sM85AgRuWFVRPezYmWyikd4APYKalZ5cq6Xsc/kLkd/Za3fdO4f7We7UsLYrlpcemXBpQoNWFqi8vB3kLdj1Z0RcSe/0LbStrSNPRW+9l19y8x1hpSBrsYMSWd7A9hxTa7Hw2ltm3EJxxjAn1aLgf/ine3HAp/vPHbohPMa2fWUCbP2v4fZ+YepNtyWjzRTnHoXx2eQKiyva14g6EGfa1WF/r7jsA6dgPEaE2GRPuvfhj6SVeOeAC7cSBmVKdwuYOsbEANMI48ItfkYtmjOehhIiyeGcWCENT5XhFrbM6DSypQInJ4zC/Csqy5cNFMypIPjvSvYk408VC1jWpb1Vk=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNTc5NjM5MTEwNSwKICAicHJvZmlsZUlkIiA6ICJiZGE1ZGUxN2IxOTU0ZDU0OTlkMTkzNzg0ZTY0MWJlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3YXJwcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYTY0ODE0NmUyODYyZmJiN2VmN2MyNWRjN2E2YTQ2YjJiOWY5OWRkMTdjOWQ2MzJkN2Q3YzNmOGJkNzNmNTNhIgogICAgfQogIH0KfQ==
+        signature: El21KHjuzTt70x5+Jjh4cByHhf72Puhp8fILrDOVN7C+m71KrtwQWQCsB/5MsucOR6xxe5ulUDLhg8BKarTmSn0TWmN8tlRO+CBukqRTp+IpGDCpDh2vgGXxYKdfC6oxVWjuX9IvNnygF+nGm8irm18t8RJrkahopRtGunH9a7xR3OyCUeWc6JstHGbz/xN2bUSWHGrBnHr7Lq3Nc7LWvrRO25O/vjfEuZ0NLm9EsyAg2KWkn16/NhfW4k0y1mrKtRUbCnKYq3gw8gMqMBm46pIpubyYhM5VtE97aGx+iyVtCBHhNV+ar3P7FEszgrGJSY4NmpDkLMRxITXs57lBl0eFYadKRgESb1u8GClRkiM1oCShkKQIl0BRN5ZzWDapOj16VwMBRkJinBMrQavSLYHusNsZanTXrEAA6OhUCtD/0lRnykEAHBAFpkgF4yErMuz0EIAVh+m2lMSVr7rWFucCsheGAabkC5WPiUW/oczXCxQT7eK2xgl9/cMf34EjeKb216PDoT8C4ukpjXak2o3nRuLpWZSwwpJCHAH241w+iNPDqS46vOOetKOlVG8/daZc6CxZFalSv6K4n4/dcqHRckkjwKiDB2ZtUu6buM+NlI2wTgXAk5Ckt1uXOCsIYphYWQA350iG3Uoo72+lCpeSgC78vZmzVVqSpBSrS8M=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNTg1MzU1NzIxMywKICAicHJvZmlsZUlkIiA6ICI1MzJmMjk5Y2Q5MzI0YzUwOTg0MmEzMTQ5NzgyZjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3YXJwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1YzA5ZWI5YTE3NmVjNGJiMmZmN2ZlNDI3NGU5ZDkzMTBiOWRlOTUwZmE1NDYxNDc2NDk5NTM1ZmM4NTVlNTgiCiAgICB9CiAgfQp9
         updateSkins: false
-    traitnames: mounttrait,spawned,scoreboardtrait,location,inventory,age,owner,type,skintrait
+      inventory:
+        '0':
+          type: BOW
+          amount: 1
+          durability: 0
+          mdata: 0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: forms open servers
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: skintrait,spawned,mounttrait,location,age,inventory,commandtrait,owner,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
   '0':
     metadata:
-      cached-skin-uuid: 3314ad5c-083e-430c-badd-58152e418f13
-      cached-skin-uuid-name: shop
-    name: shop
+      cached-skin-uuid: a79b0a59-c092-4eca-9b8d-1dd70105bb3d
+      cached-skin-uuid-name: tienda
+      nameplate-visible: 'false'
+    name: tienda
     uuid: 765638b7-6701-4332-adff-8b4cde75dc05
     traits:
       spawned: true
@@ -58,10 +79,10 @@ npc:
       type: PLAYER
       skintrait:
         fetchDefaultSkin: true
-        signature: ho37icL5+IvaaNM1fp6u4HMKu1hqoJb7vQrf7qFGxXC0ygtFMzJfIf1piyaoQOpwhdOQ4C3tGn/OClFfgRkV7CMra9GKr8W+fE+xqktrx2l26VFHEjXQ3XcsDjVWXk+7pXNLzXazD1xTe4AL05BfatD0adXh3XMz3z+WVK8hG2WgQtw5xfyQSzZKFvHORNddlJGHcSxSZDZI/2H6DXw9rMRbt6Tw1cfDtFHAnSA3IoiofOCsNC0atcXZ9B2o1sHOa2ZHjrn6xXZOeC2PMmUmQbOKr8O8pF/gtnOujTehWCP8C2H+I03C72nRSgHJ6z++3tdlPn+t4bL9rH1tsF5lB7lh8+aQMAjuavoqXZukgn4CMbPoILZK6x/PRcc/z1+ZLh+60eR7AMmQqcaXsgyNa7ZPq7jviq6EDY83hPLj7HSgOQ2rCPxcIwcIAZt64griSOQ4Dc4d3CCyKdTbZ3zgb6JO7a2HAqoRT7WIXuDkQJXcFbvPuUVFF0NTadvX4vlHMsGMT6vrskBDfWm2kLyx53yh48MbcFIaa1OoPwoivQrUmJWRqE8Q6U1s2ST8Gd/983aNKrkD3xmQxrvRNd+3AuhQ3Ynvqsm/hF0yAesb0K0IC4CoQI3CUVq3G6hhtRKRZwR1VpXG0NOrGE3S/+izBFmltH5yF6PBtkoVTJmekwA=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNTc5NjQxMDQzMSwKICAicHJvZmlsZUlkIiA6ICIzMzE0YWQ1YzA4M2U0MzBjYmFkZDU4MTUyZTQxOGYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaG9wIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IwMzZiNjUwNDM5NTZkYjgxY2U4ZGY4NTI4ODE4YTkzNmZhYWQyMmQwODAwMWY5MGUzYjlhNGRiOTdjMzc2NDUiCiAgICB9CiAgfQp9
+        signature: NFXPc0EFzCd83yWBAhvGwsTolPtuArRbofyWOPUi3b/Ztw1z+ti7qhtEVa96NsOhHGuAmOz5sgzlGT3dMFPmsHwglzDlnaD6GqNuPS/Pors5gFD3FNtkk9NaBJFH91kC+gToW3i7PA4oY4RMfRVcUO2oGCLM3WsVeo52ZKav2tyY4nbJ/tGEouZlUS7sNNjsxYogw8GNnr10uxLtwlJK5MJCFdy0gWpt///s/GWky8J0pXPCXRsGgw+ufdSGhg4igpJKmbw5Zg/u9IjUWU8umErkmpd4Q/PU4eRkdwPQOd4UWV4mQcX4i4ssY2Ek/ahXuiqC2oI9HtXMX5AgM3wZ/l41L9CXFGthwy27196zuz6aeK8wTVqTHF/bcMht9NAml2GFubPAKjGbXa7hJ7yyDMYPhudlm9wk6t9Xz4yxtVGVN3nRExj0Scpvo29kfsuRbE4XAjDhkop7+bkVkbZdiZizf/G+muOrS+Ted8N14Qr+38bFBSwwn/Y8NvATS7i19oIqsWsLpcxFQJh1zo8mA9P5vhs+xi2vFGEWgGMh4k4RFPhB8yP2rVIOdE0bPTxy7d4RKBoG6L4NE/pPAEufwM08yGYu+Pu6KTWxbyxV77x0SNZF3b7PAz5XPRACc9ouc5wi0vhs31VvaSdiU61C3fJxbFPz3iJJe5xhg5hd0Ic=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNTg1MzUyNTE5NCwKICAicHJvZmlsZUlkIiA6ICJhNzliMGE1OWMwOTI0ZWNhOWI4ZDFkZDcwMTA1YmIzZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aWVuZGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkZGRiNDFkY2FmZWY2MTZlOTU5YzI4MTc4MDhlMGJlNzQxYzg5ZmZiZmVkMzkxMzRhMTNlNzViODExODYzZCIKICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: mounttrait,spawned,scoreboardtrait,location,inventory,age,owner,type,skintrait
+    traitnames: skintrait,spawned,mounttrait,location,age,inventory,owner,scoreboardtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
