@@ -19,10 +19,10 @@
 Motd:
 
     # Text to be displayed in line 1 of your motd
-  LineOne: 'format: c{&b&lFORAN&F&LMC &6&lANARCHY}'
+  LineOne: 'format: c{&6&lFREDONIA &f&lLAND &7[1.16.x - 1.21.x]}'
 
     # Text to be displayed in line 2 of your motd
-  LineTwo: 'format: c{&eSoporte: &e1.12.x &7- &e 1.21.4}'
+  LineTwo: 'format: c{&fNuevo&7: &eHabilides&7, &eMochilas &7y &cMas&7!}'
 
   # Icons to take from icons folder in pair to this motd
   # (several icons are separated by commas; if any icon

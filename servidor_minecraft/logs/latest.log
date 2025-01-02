@@ -2140,3 +2140,282 @@ java.lang.IllegalArgumentException: Newer version! Server downgrades are not sup
 [02:08:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
 [02:08:39] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
 [02:08:49] [Server thread/INFO]: Named entity EntitySkeletonWither['Skeletal Knight'/526, uuid='dd7048af-bc3d-42ce-baa1-f852aad525da', l='ServerLevel[world]', x=-17.50, y=39.00, z=23.50, cpos=[-2, 1], tl=431, v=true] died: Skeletal Knight suffocated in a wall
+[02:14:09] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[02:14:19] [Server thread/ERROR]: Cannot load /workspaces/Mc-Server/servidor_minecraft/plugins/AdvancedNMotd/motds/motd5.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon5.png'
+      ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:304) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.Adapters.BukkitConfigurationAdapter$BukkitConfigurationAdapterFactory.loadConfiguration(BukkitConfigurationAdapter.java:40) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.buildConfiguration(ConfigurationManager.java:48) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.initializeMotds(ConfigurationManager.java:113) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.createConfigs(ConfigurationManager.java:130) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Templates.PluginCommandExecutorTemplate.onAdvancedNMotdCommand(PluginCommandExecutorTemplate.java:45) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Bukkit.BukkitCommandExecutor.onCommand(BukkitCommandExecutor.java:47) ~[AdvancedNMotd1001.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:473) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon5.png'
+      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:644) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:293) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:142) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-1.30.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 19 more
+[02:14:19] [Server thread/ERROR]: Cannot load /workspaces/Mc-Server/servidor_minecraft/plugins/AdvancedNMotd/motds/motd4.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon4.png'
+      ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:304) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.Adapters.BukkitConfigurationAdapter$BukkitConfigurationAdapterFactory.loadConfiguration(BukkitConfigurationAdapter.java:40) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.buildConfiguration(ConfigurationManager.java:48) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.initializeMotds(ConfigurationManager.java:113) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.createConfigs(ConfigurationManager.java:130) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Templates.PluginCommandExecutorTemplate.onAdvancedNMotdCommand(PluginCommandExecutorTemplate.java:45) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Bukkit.BukkitCommandExecutor.onCommand(BukkitCommandExecutor.java:47) ~[AdvancedNMotd1001.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:473) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon4.png'
+      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:644) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:293) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:142) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-1.30.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 19 more
+[02:14:19] [Server thread/ERROR]: Cannot load /workspaces/Mc-Server/servidor_minecraft/plugins/AdvancedNMotd/motds/motd2.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon2.png'
+      ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:304) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.Adapters.BukkitConfigurationAdapter$BukkitConfigurationAdapterFactory.loadConfiguration(BukkitConfigurationAdapter.java:40) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.buildConfiguration(ConfigurationManager.java:48) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.initializeMotds(ConfigurationManager.java:113) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.createConfigs(ConfigurationManager.java:130) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Templates.PluginCommandExecutorTemplate.onAdvancedNMotdCommand(PluginCommandExecutorTemplate.java:45) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Bukkit.BukkitCommandExecutor.onCommand(BukkitCommandExecutor.java:47) ~[AdvancedNMotd1001.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:473) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon2.png'
+      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:644) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:293) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:142) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-1.30.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 19 more
+[02:14:19] [Server thread/ERROR]: Cannot load /workspaces/Mc-Server/servidor_minecraft/plugins/AdvancedNMotd/motds/motd3.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon3.png'
+      ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:304) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.Adapters.BukkitConfigurationAdapter$BukkitConfigurationAdapterFactory.loadConfiguration(BukkitConfigurationAdapter.java:40) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.buildConfiguration(ConfigurationManager.java:48) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.initializeMotds(ConfigurationManager.java:113) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Configuration.ConfigurationManager.createConfigs(ConfigurationManager.java:130) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Templates.PluginCommandExecutorTemplate.onAdvancedNMotdCommand(PluginCommandExecutorTemplate.java:45) ~[AdvancedNMotd1001.jar:?]
+	at ru.namerpro.AdvancedNMotd.Bukkit.BukkitCommandExecutor.onCommand(BukkitCommandExecutor.java:47) ~[AdvancedNMotd1001.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchCommand(CraftServer.java:909) ~[paper-1.19.jar:git-Paper-81]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.dispatchServerCommand(CraftServer.java:872) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:473) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1415) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188) ~[paper-1.19.jar:git-Paper-81]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-1.19.jar:git-Paper-81]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 19, column 1:
+    Motd:
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 30, column 3:
+      Icons: 'icon3.png'
+      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:644) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:293) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:142) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-1.30.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:102) ~[paper-api-1.19-R0.1-SNAPSHOT.jar:?]
+	... 19 more
+[02:14:19] [Server thread/INFO]: AdvancedNMotd: Successfully reloaded plugin configuration!
+[02:14:49] [Server thread/INFO]: AdvancedNMotd: Successfully reloaded plugin configuration!
+[02:14:54] [Server thread/INFO]: Frntts lost connection: Disconnected
+[02:14:54] [Server thread/INFO]: Frntts left the game
+[02:15:08] [Netty Epoll Server IO #2/INFO]: AdvancedNMotd: Detected "%fakeOnline%" placeholder, but it was disabled in configuration! To enable it set "AdvancedNMotd.Configuration.Data" field to true in "config.yml". To dismiss this text and get the same result, screen both '%' symbols by placing '|' before each like this: "|%". Line: "c{deserve. Join us! There are already %fakeOnline%}". Index: 38.
+[02:15:11] [Netty Epoll Server IO #3/INFO]: AdvancedNMotd: Detected "%fakeOnline%" placeholder, but it was disabled in configuration! To enable it set "AdvancedNMotd.Configuration.Data" field to true in "config.yml". To dismiss this text and get the same result, screen both '%' symbols by placing '|' before each like this: "|%". Line: "c{deserve. Join us! There are already %fakeOnline%}". Index: 38.
+[02:15:19] [Netty Epoll Server IO #0/INFO]: AdvancedNMotd: Detected "%fakeOnline%" placeholder, but it was disabled in configuration! To enable it set "AdvancedNMotd.Configuration.Data" field to true in "config.yml". To dismiss this text and get the same result, screen both '%' symbols by placing '|' before each like this: "|%". Line: "c{deserve. Join us! There are already %fakeOnline%}". Index: 38.
+[02:15:25] [Netty Epoll Server IO #1/INFO]: AdvancedNMotd: Detected "%fakeOnline%" placeholder, but it was disabled in configuration! To enable it set "AdvancedNMotd.Configuration.Data" field to true in "config.yml". To dismiss this text and get the same result, screen both '%' symbols by placing '|' before each like this: "|%". Line: "c{deserve. Join us! There are already %fakeOnline%}". Index: 38.
+[02:15:27] [Netty Epoll Server IO #2/INFO]: AdvancedNMotd: Detected "%fakeOnline%" placeholder, but it was disabled in configuration! To enable it set "AdvancedNMotd.Configuration.Data" field to true in "config.yml". To dismiss this text and get the same result, screen both '%' symbols by placing '|' before each like this: "|%". Line: "c{deserve. Join us! There are already %fakeOnline%}". Index: 38.
+[02:16:20] [Netty Epoll Server IO #3/INFO]: AdvancedNMotd: Detected "%fakeOnline%" placeholder, but it was disabled in configuration! To enable it set "AdvancedNMotd.Configuration.Data" field to true in "config.yml". To dismiss this text and get the same result, screen both '%' symbols by placing '|' before each like this: "|%". Line: "c{deserve. Join us! There are already %fakeOnline%}". Index: 38.
+[02:16:23] [Netty Epoll Server IO #0/INFO]: AdvancedNMotd: Detected "%fakeOnline%" placeholder, but it was disabled in configuration! To enable it set "AdvancedNMotd.Configuration.Data" field to true in "config.yml". To dismiss this text and get the same result, screen both '%' symbols by placing '|' before each like this: "|%". Line: "c{deserve. Join us! There are already %fakeOnline%}". Index: 38.
+[02:16:25] [Protocol Worker #1 - FastLogin - [recv: START[class=PacketLoginInStart, id=0], ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], send: ]/INFO]: [FastLogin] New incoming packet START[class=PacketLoginInStart, id=0] from UNKNOWN[/127.211.237.200:53623]
+[02:16:25] [Craft Scheduler Thread - 39 - FastLogin/INFO]: [FastLogin] Requesting premium login for registered player: Frntts
+[02:16:26] [Protocol Worker #1 - FastLogin - [recv: START[class=PacketLoginInStart, id=0], ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1], send: ]/INFO]: [FastLogin] New incoming packet ENCRYPTION_BEGIN[class=PacketLoginInEncryptionBegin, id=1] from UNKNOWN[/127.211.237.200:53623]
+[02:16:26] [Craft Scheduler Thread - 38 - FastLogin/INFO]: [FastLogin] Enabling onlinemode encryption for /127.211.237.200:53623
+[02:16:26] [Craft Scheduler Thread - 38 - FastLogin/INFO]: [FastLogin] Profile Frntts has a verified premium account
+[02:16:27] [User Authenticator #2/INFO]: UUID of player Frntts is dab0fa20-7de8-336e-8e70-c48bd783a098
+[02:16:27] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Frntts's group (dev) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[02:16:27] [Server thread/INFO]: Frntts joined the game
+[02:16:27] [Server thread/INFO]: Frntts[/127.211.237.200:53623] logged in with entity id 1021 at ([world]-45.39592575345771, 151.0, 0.6893878151365797)
+[02:16:27] [Server thread/ERROR]: [MythicMobs] [31m[EVENTS] Exception thrown whilst handling event: io.lumine.mythic.bukkit.events.MythicPlayerLoadedEvent[37m
+[02:16:27] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "io.lumine.mythic.api.volatilecode.handlers.VolatileEntityHandler.initTeams(io.lumine.mythic.api.adapters.AbstractPlayer)" because the return value of "io.lumine.mythic.api.volatilecode.VolatileCodeHandler.getEntityHandler()" is null
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.glow.GlowManager.lambda$load$0(GlowManager.java:35)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToBiConsumerSecond.accept(Delegates.java:144)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.events.functional.single.EventListener.execute(EventListener.java:131)
+[02:16:27] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[02:16:27] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[02:16:27] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:670)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Events.call(Events.java:103)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.players.PlayerManager.initProfile(PlayerManager.java:55)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.core.players.PlayerManager.initProfile(PlayerManager.java:29)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.storage.players.PlayerRepository.lambda$loadProfile$2(PlayerRepository.java:108)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.Delegates$ConsumerToFunction.apply(Delegates.java:177)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$ApplyRunnable.run(LuminePromise.java:684)
+[02:16:27] [Server thread/WARN]: 	at MythicMobs-5.7.2.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[02:16:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftTask.run(CraftTask.java:101)
+[02:16:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[02:16:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1491)
+[02:16:27] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:446)
+[02:16:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1415)
+[02:16:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1188)
+[02:16:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[02:16:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[02:16:27] [Craft Scheduler Thread - 40 - FastLogin/INFO]: [FastLogin] Logging player Frntts in
+[02:16:27] [Craft Scheduler Thread - 40 - AuthMe/INFO]: [AuthMe] Frntts logged in 127.211.237.200
+[02:18:50] [Server thread/INFO]: Frntts issued server command: /lp creategroup owner
+[02:18:50] [luckperms-command-executor/INFO]: [LP] LOG > (Frntts) [G] (owner)
+[02:18:50] [luckperms-command-executor/INFO]: [LP] LOG > create
+[02:18:55] [Server thread/INFO]: Frntts issued server command: /lp editor
+[02:19:48] [Server thread/INFO]: Frntts issued server command: /lp applyedits mFi1kk7ul9
+[02:19:48] [luckperms-command-executor/INFO]: [LP] LOG > (Frntts) [G] (owner)
+[02:19:48] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.1.&7[&cDueño&7]  true
+[02:19:48] [luckperms-command-executor/INFO]: [LP] LOG > (Frntts) [G] (owner)
+[02:19:48] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add * true
