@@ -1,6 +1,5 @@
 # All languages are in the folder: localization, to add a language simply duplicate an already existing one and rename it
-language: eng
-
+language: es
 
 # ADVANCE
 # After what time (in seconds) the backpack is not used, it is to be deleted from memory.
@@ -190,7 +189,7 @@ show-backpack-content-lore: true
 # can-be-crafted -> Can the player create this backpack, set true if yes and false if no
 backpack-tiers:
   '1':
-    displayName: '#E3680EBasic Backpack'
+    displayName: '#E3680EMochila Basica'
     backpack-skull-hash: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjliMThiMDI0NTNkYjFiYTI1NjRjMWY5Yzk2N2ZkYWE0ZjNmOGY5NWQ2OTcyNjVkNGJkZTY2MjBkNjhkZWVhYiJ9fX0=
     permission-craft: backpackplus.craft.1
     permission-use: backpackplus.craft.1
@@ -209,7 +208,7 @@ backpack-tiers:
       '8': iron_ingot
       '9': iron_block
   '2':
-    displayName: '#E0B715Golden Backpack'
+    displayName: '#E0B715Mochila Mediana'
     backpack-skull-hash: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZhMDU2ZDdhZTMwMzYwNzZmYzJhYTE0MTk4Y2U1ZWVlMTUxMGEzMDlmNDMyNDU4MDEwYWMwM2ZjMDZkNGUwOCJ9fX0=
     permission-craft: backpackplus.craft.2
     permission-use: backpackplus.craft.2
@@ -228,7 +227,7 @@ backpack-tiers:
       '8': gold_ingot
       '9': gold_block
   '3':
-    displayName: '#00C2C6Diamond Backpack'
+    displayName: '#00C2C6Mochila Grande'
     backpack-skull-hash: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIwOWRmOGYzODc1Yjk1YzlkMDU3NzI4MTUyZjlmNDRlNTQwZmQ3YWY4MjVkZjQ0YjNkYjQxNTVjY2VlYzQyOSJ9fX0=
     permission-craft: backpackplus.craft.3
     permission-use: backpackplus.craft.3

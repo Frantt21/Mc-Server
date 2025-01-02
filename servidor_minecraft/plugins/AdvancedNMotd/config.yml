@@ -22,7 +22,7 @@ AdvancedNMotd:
             Version: false
  
         # Should the plugin use 'data.yml' file
-        Data: true
+        Data: false
        
         # Should the plugin take icons from the 'icons' folder
         Icons: true
