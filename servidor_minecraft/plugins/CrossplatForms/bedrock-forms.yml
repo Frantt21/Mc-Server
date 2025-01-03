@@ -32,11 +32,6 @@ forms:
           - commands:
               - "player; warp tienda"
 
-      - text: "Spawn"
-        actions:
-          - commands:
-              - "player; spawn"
-
   shop:
     type: simple_form
     title: "Minigames"
