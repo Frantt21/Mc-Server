@@ -39,6 +39,8 @@ npc:
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
         commands:
           '0':
             command: forms open servers
@@ -49,8 +51,6 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-        experienceCost: -1.0
-        hideErrorMessages: false
     traitnames: commandtrait,mounttrait,inventory,location,age,scoreboardtrait,spawned,type,owner,skintrait
     navigator:
       speedmodifier: '1.0'
