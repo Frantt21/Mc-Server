@@ -138,3 +138,6 @@
 [00:40:21] [Server thread/WARN]: Frantt214133 moved too quickly! -3.758669999999995,31.20008,271.54141
 [00:40:21] [Server thread/WARN]: Frantt214133 moved too quickly! -3.758669999999995,31.20008,271.54141
 [00:41:11] [Server thread/INFO]: Frantt214133 issued server command: /mv tp shop
+[00:57:05] [localSession-7-1/INFO]: [Geyser-Spigot] Frantt214133 has disconnected from the Java server because of Bedrock client timed out
+[00:57:05] [Server thread/INFO]: Frantt214133 lost connection: Disconnected
+[00:57:05] [Server thread/INFO]: Frantt214133 left the game
