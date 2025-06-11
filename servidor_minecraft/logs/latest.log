@@ -271,3 +271,5 @@ net.skinsrestorer.shared.exception.DataRequestExceptionShared: Failed to get UUI
 [23:30:59] [Server thread/WARN]: xFrntts moved too quickly! 9.422358155923575,1.0104000401496904,4.492330583452713
 [23:31:02] [Server thread/INFO]: xFrntts issued server command: /tp Lin
 [23:34:13] [Server thread/INFO]: Lin has made the advancement [Sneak 100]
+[23:37:43] [Server thread/INFO]: xFrntts issued server command: /day
+[23:44:11] [Server thread/WARN]: xFrntts moved too quickly! 11.786076121377846,-5.796735600668711,-5.445459442446008
