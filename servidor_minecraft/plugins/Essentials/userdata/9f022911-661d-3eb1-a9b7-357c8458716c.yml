@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1749684218097
+  lastteleport: 1749684662593
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: xFrntts
 lastlocation:
   world: 43a7c77b-cfea-405e-a6d9-26f45fcb63ba
   world-name: world
-  x: 284.96124082777845
-  y: 80.0
-  z: 133.38897499516384
-  yaw: 17.701101303100586
-  pitch: 5.836175441741943
+  x: -17634.30000001192
+  y: 115.38442941689945
+  z: -47381.69999998808
+  yaw: -102.50856018066406
+  pitch: 15.618263244628906
 logoutlocation:
   world: 43a7c77b-cfea-405e-a6d9-26f45fcb63ba
   world-name: world

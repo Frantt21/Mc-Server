@@ -251,3 +251,23 @@ net.skinsrestorer.shared.exception.DataRequestExceptionShared: Failed to get UUI
 [23:25:13] [Server thread/INFO]: xFrntts issued server command: /locate biome minecraft:cherry_grove
 [23:25:13] [Server thread/INFO]: Locating element minecraft:cherry_grove took 0 ms
 [23:25:15] [Server thread/INFO]: xFrntts issued server command: /seed
+[23:27:31] [Server thread/INFO]: xFrntts issued server command: /tp -17677 70 -47573
+[23:27:45] [Server thread/INFO]: xFrntts issued server command: /tp -17677 110 -47573
+[23:27:55] [Server thread/INFO]: xFrntts issued server command: /tp Lin xFrntts
+[23:29:15] [Server thread/INFO]: Villager Villager['Villager'/5449, uuid='78a38455-d7d2-4997-8625-fec846904dbc', l='ServerLevel[world]', x=-17561.35, y=100.94, z=-47298.30, cpos=[-1098, -2957], tl=463, v=true] died, message: 'Villager was slain by Zombie'
+[23:30:53] [Server thread/INFO]: xFrntts issued server command: /plugman load worldedit-bukkit-7.3.14
+[23:30:53] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.14.jar'...
+[23:30:56] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.14.jar' in 2905ms.
+[23:30:56] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.14+7149-8bea01b
+[23:30:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1e403a0f]
+[23:30:57] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[23:30:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.14+7149-8bea01b
+[23:30:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:30:57] [Server thread/INFO]: WEPIF: Updated config file
+[23:30:57] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[23:30:57] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[23:30:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[23:30:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5949ms or 118 ticks behind
+[23:30:59] [Server thread/WARN]: xFrntts moved too quickly! 9.422358155923575,1.0104000401496904,4.492330583452713
+[23:31:02] [Server thread/INFO]: xFrntts issued server command: /tp Lin
+[23:34:13] [Server thread/INFO]: Lin has made the advancement [Sneak 100]
