@@ -273,3 +273,7 @@ net.skinsrestorer.shared.exception.DataRequestExceptionShared: Failed to get UUI
 [23:34:13] [Server thread/INFO]: Lin has made the advancement [Sneak 100]
 [23:37:43] [Server thread/INFO]: xFrntts issued server command: /day
 [23:44:11] [Server thread/WARN]: xFrntts moved too quickly! 11.786076121377846,-5.796735600668711,-5.445459442446008
+[23:48:39] [Server thread/INFO]: xFrntts issued server command: /day
+[23:49:39] [Server thread/INFO]: Lin has made the advancement [Monster Hunter]
+[23:49:40] [Server thread/INFO]: xFrntts issued server command: //sphere diamond_block 10
+[23:49:59] [Server thread/INFO]: xFrntts issued server command: //undo
