@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.133.107.54
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749683700475
+  login: 1749683860495
+money: '0'
+last-account-name: Lin
+lastlocation:
+  world: 43a7c77b-cfea-405e-a6d9-26f45fcb63ba
+  world-name: world
+  x: 203.43570945901246
+  y: 63.0
+  z: 127.99916899714863
+  yaw: -14.849884033203125
+  pitch: 58.04999542236328
+logoutlocation:
+  world: 43a7c77b-cfea-405e-a6d9-26f45fcb63ba
+  world-name: world
+  x: 84.17868022873357
+  y: 64.41999998688698
+  z: 84.03585737246492
+  yaw: -40.649600982666016
+  pitch: 15.900036811828613
