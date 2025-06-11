@@ -1,4 +1,1164 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0mInvalid secret, do you want to reset (Y/n)? [2J8[0mInvalid input: "2"
-Invalid secret, do you want to reset (Y/n)? [2J8[0mInvalid input: "tttp1"
-Invalid secret, do you want to reset (Y/n)? [2J8[0mInvalid input: "1"
-Invalid secret, do you want to reset (Y/n)? 
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 2 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1749675970551 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675973645 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675976737 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675979830 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675982920 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675986009 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675989104 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675992196 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675995287 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749675998379 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676001468 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676004561 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676007690 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676010785 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676013880 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676016974 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676020071 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676023167 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676026259 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676029352 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676032442 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676035535 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676038626 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676041719 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676044817 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676047911 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676051006 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676054095 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676057194 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676060290 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676063378 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676066470 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676069564 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676072656 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676075751 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676078843 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676081931 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676085028 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676088119 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676091212 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676094305 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676097405 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676100506 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676103599 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676106695 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676109794 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676112888 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676115978 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676119069 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676122166 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676125264 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676128366 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676131461 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676134551 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676137645 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676140744 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676143834 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676146931 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676150022 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676153117 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676156217 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676159304 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676162399 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676165493 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676168586 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676171675 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676174767 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676177860 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676180952 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676184044 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676187137 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676190228 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676193320 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676196410 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676199513 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676202609 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676205704 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676208805 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676211894 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676214984 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676218078 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676221170 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676224266 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676227358 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676230451 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676233549 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676236637 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676239738 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676242828 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676245927 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676249022 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676252122 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676255221 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676258320 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676261409 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676264503 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676267600 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676270699 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676273789 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676276882 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676280023 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676283119 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676286207 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676289301 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676292389 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676295504 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676298594 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676301684 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676304771 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676307866 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676310956 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676314053 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676317143 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676320246 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676323335 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676326448 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676329538 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676332637 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676335732 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676338829 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676341930 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676345023 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676348127 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676351221 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676354317 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676357418 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676360512 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676363612 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676366707 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676369803 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676372897 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676375990 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676379085 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676382185 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676385292 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676388441 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676391533 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676394630 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676397723 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676400824 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676403918 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676407010 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676410107 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676413202 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676416297 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676419396 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676422487 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676425584 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676428677 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676431772 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676434879 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676437995 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676441097 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676444192 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676447293 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676450384 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676453482 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676456586 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676459678 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676462769 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676465861 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676468951 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676472059 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676475153 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676478246 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676481350 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676484446 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676487536 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676490633 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676493731 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676496822 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676499933 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676503026 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676506123 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676509215 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676512319 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676515411 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676518519 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676521613 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676524704 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676527796 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676530893 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676533986 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676537077 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676540168 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676543271 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676546365 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676549458 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676552554 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676555646 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676558738 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676561832 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676564922 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+[2J8[0mplayit (v0.15.26): 1749676568013 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+april-parallel.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+associated-dense.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
