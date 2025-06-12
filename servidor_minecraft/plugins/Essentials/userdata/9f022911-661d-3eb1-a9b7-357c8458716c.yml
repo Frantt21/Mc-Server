@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749689220147
+  logout: 1749690350546
   login: 1749689361446
 money: '0'
 last-account-name: xFrntts
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 43a7c77b-cfea-405e-a6d9-26f45fcb63ba
   world-name: world
-  x: -17588.900511681502
-  y: 114.0
-  z: -47568.636966448285
-  yaw: -65.2467041015625
-  pitch: 22.5980224609375
+  x: -17582.33347399389
+  y: 107.0
+  z: -47564.54445975249
+  yaw: -65.99111938476562
+  pitch: 18.943784713745117
